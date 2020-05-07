@@ -274,5 +274,6 @@ public class exercice_3_3 {
 			System.out.println("Il y a " + compte + " fois la lettre z");
 			compte = 0;
 		}
+		sc.close();
 	}
 }
