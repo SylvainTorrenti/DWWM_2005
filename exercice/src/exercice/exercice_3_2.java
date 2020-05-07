@@ -16,7 +16,7 @@ public class exercice_3_2 {
 			}
 			if (phrase != ".") {
 
-				System.out.println("Choisir une lettre");
+				System.out.println("Choisir une lettre:");
 				char lettre = sc.next().charAt(0);
 
 				int occurence = 0;
@@ -27,11 +27,12 @@ public class exercice_3_2 {
 						count++;
 						if (count != 0) {
 							occurence++;
-							if (occurence > 1) {
-								System.out.println("La lettre est presente plusieurs fois");
-								break;
-							}
 
+							if (occurence > 1) {
+								System.out.println("La lettre est presente plusieurs fois.");
+								break;
+
+							}
 						}
 					}
 				}
