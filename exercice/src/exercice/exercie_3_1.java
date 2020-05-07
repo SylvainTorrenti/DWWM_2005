@@ -17,7 +17,7 @@ public class exercie_3_1 {
 			if (i == tab.length - 1) {
 				System.out.println("Non trouvé");
 			}
-
+			sc.close();
 		}
 	}
 }
