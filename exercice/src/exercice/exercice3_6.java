@@ -22,13 +22,15 @@ public class exercice3_6 {
 			reponse[i] = '-';
 			System.out.print(reponse[i]);
 		}
-		
-		System.out.println("\n"+"Entrez la lettre:");
-		devine = sc.next().charAt(0);
-		if (mot.charAt(i) == devine) {
-			reponse[i] = devine;
+		for (i = 0; i < reponse.length; i++) {
+
+			System.out.println("\n" + "Entrez la lettre:");
+			devine = sc.next().charAt(0);
+			if (mot.charAt(i) == devine) {
+				reponse[i] = devine;
+
+			}
 
 		}
-
 	}
 }
