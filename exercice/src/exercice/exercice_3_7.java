@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @author Sylvain torrenti
  * @version 1.0
- * @since 11/05/20
+ * @since 12/05/20
  */
 public class exercice_3_7 {
 
