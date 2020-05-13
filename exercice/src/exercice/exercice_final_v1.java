@@ -10,21 +10,17 @@ import java.util.Scanner;
 public class exercice_final_v1 {
 
 	public static int Calcul_PGCD(int a, int b) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Entrez un nombre:");
-		int p = sc.nextInt();
-		System.out.println("Entrez un 2eme nombre:");
-		int q = sc.nextInt();
-		while (p != q) {
-			if (p > q) {
-				p = p - q;
+
+		while (a != b) {
+			if (a > b) {
+				a = a - b;
 			} else {
-				q = q - p;
+				b = b - a;
 			}
 
 		}
-		System.out.println("Le PGCD est de " + p);
-		return p;
+		System.out.println("Le PGCD est de " + a);
+		return a;
 	}
 
 	public static void main(String[] args) {
@@ -33,7 +29,6 @@ public class exercice_final_v1 {
 		int p = sc.nextInt();
 		System.out.println("Entrez un 2eme nombre:");
 		int q = sc.nextInt();
-
 		Calcul_PGCD(p, q);
 	}
 }
