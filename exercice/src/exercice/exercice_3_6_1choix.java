@@ -33,6 +33,7 @@ public class exercice_3_6_1choix {
 					i++;
 
 				}
+				
 
 			}
 			if (essai == 6) {

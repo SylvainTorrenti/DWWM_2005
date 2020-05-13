@@ -26,11 +26,17 @@ public class exercice3_6 {
 
 			System.out.println("\n" + "Entrez la lettre:");
 			devine = sc.next().charAt(0);
+			essai++;
+			
+			if (essai==7) {
+				System.out.println("Vous avez fait trop de tentatives!");
+			}
 			if (mot.charAt(i) == devine) {
 				reponse[i] = devine;
 
 			}
-
+			
 		}
+		
 	}
 }

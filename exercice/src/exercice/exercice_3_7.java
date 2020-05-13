@@ -15,6 +15,7 @@ public class exercice_3_7 {
 		String[] nom = { "agathe", "berthe", "chloé", "cunégonde", "olga", "raymonde", "sidonie" };
 		System.out.println("Entrez un prénom:");
 		String nom1 = sc.nextLine();
+		sc.close();
 		for (int i = 0; i < nom.length; i++) {
 			if (nom[i].equalsIgnoreCase(nom1)) {
 				System.out.println(i + 1);

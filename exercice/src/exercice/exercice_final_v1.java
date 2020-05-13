@@ -25,10 +25,11 @@ public class exercice_final_v1 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Entrez un nombre:");
+		System.out.println("Entrez un 1er nombre:");
 		int p = sc.nextInt();
 		System.out.println("Entrez un 2eme nombre:");
 		int q = sc.nextInt();
 		Calcul_PGCD(p, q);
+		sc.close();
 	}
 }
