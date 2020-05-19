@@ -1,0 +1,15 @@
+ENTIER nombre_1
+ENTIER nombre_2
+REEL resultat
+CARACTERE reponse
+
+DEBUT
+ECRIRE "Entrez 2 nombres séparé par un espace"
+LIRE nombre_1
+LIRE nombre_2
+resultat <== (nombre_1+nombre_2)/2
+ECRIRE "La moyenne est de",resultat
+ECRIRE "Appuyez sur une touche pour quitter"
+LIRE reponse
+
+FIN
