@@ -37,7 +37,7 @@ public class exercice_3_2 {
 					}
 				}
 				if (occurence == 0 && phrase.charAt(0) != '.') {
-					System.out.println("La lettre n'est pas présente");
+					System.out.println("La lettre n'est pas prï¿½sente");
 
 				}
 
