@@ -45,11 +45,12 @@ class Employee {
         this.email = _prenom.substring(0, 1).toLowerCase() + _nom.toLowerCase() + "@email.fr";
         this.role = _role;
         this.salaire = _salaire;
+        this.salaire_Mensuel_Net = this.getMonthlySalary();
         this.date = _hiredate;
     }
     getMonthlySalary() {
-        return Math.round((this.salaire / 12) * 0.75);
-      }
+        return Math.round((this.salaire / 12) * 0.75);è
+    }
 }
 
 
