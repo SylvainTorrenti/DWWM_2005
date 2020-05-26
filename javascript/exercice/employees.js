@@ -7,16 +7,16 @@
  * A l'aide de la syntaxe orientée "classes", modélisez un objet "Employee" possédant les caractéristiques suivantes :
  *  Attributs: 
  *  - id (int): identifiant
- *  - lastname (string): nom
- *  - firstname (string): prénom
+ *  - nom (string): nom
+ *  - prenom (string): prénom
  *  - email (string): calculé automatiquement dans le constructeur (exemple: John Doe => jdoe@email.fr)
  *  - role (string): poste occupé
- *  - salary (int): salaire annuel BRUT
+ *  - salaire (int): salaire annuel BRUT
  *  - hiredate (Date): date d'embauche au format YYYY-MM-DD
  * 
  *  Méthodes:
- *  - getMonthlySalary() : retourne un entier -> le salaire mensuel NET calculé à partir du salaire annuel (salaire_mensuel = salaire_annuel / 12 * 0.75)
- *  - getSeniority() : renvoie une chaine -> l'ancienneté de l'employé (exemples: "19 jours", "3 mois et 2 jours", "2 ans 7 mois et 8 jours") 
+ *  - getMonthlysalaire() : retourne un entier -> le salaire mensuel NET calculé à partir du salaire annuel (salaire_mensuel = salaire_annuel / 12 * 0.75)
+ *  - getancienity() : renvoie une chaine -> l'ancienneté de l'employé (exemples: "19 jours", "3 mois et 2 jours", "2 ans 7 mois et 8 jours") 
  * 
  * Une fois modélisé et testé, complétez le tableau "employees" pour qu'il contienne 5 employés au total (ni plus, ni moins).
  * Parcourir ensuite le tableau complété et afficher chaque employé dans la console (nom, prénom, email, ancienneté, salaire mensuel NET)
@@ -45,11 +45,32 @@ class Employee {
         this.email = _prenom.substring(0, 1).toLowerCase() + _nom.toLowerCase() + "@email.fr";
         this.role = _role;
         this.salaire = _salaire;
-        this.salaire_Mensuel_Net = this.getMonthlySalary();
+
         this.date = _hiredate;
     }
-    getMonthlySalary() {
-        return Math.round((this.salaire / 12) * 0.75);è
+    getMonthlysalaire() {
+        return Math.round((this.salaire / 12) * 0.75);
+    }
+    getancienity() {
+        let maintenant = new Date();
+        let embaucheDate = new Date(this.hiredate.replace('-', ','));
+        let diff = maintenant.getTime() - embaucheDate.getTime();
+        diff = Math.floor(diff / (1000 * 60 * 60 * 24));
+        let année = Math.floor(diff / 365);
+        diff = diff - année * 365;
+        let mois = Math.floor(diff / 30);
+        diff = diff - mois * 30;
+        let jour = diff;
+        if (jour > 0 && mois > 0 && année > 0) {
+            return année + " ans et " + mois + " mois et " + jour + " jours ";
+        } else if (jour > 0 && mois > 0 && année == 0) {
+            return mois + " mois et " + jour + " jours ";
+        } else if (jour > 0 && mois == 0 && année == 0) {
+            return jour + " jours ";
+        }
+        if (maintenant < embaucheDate) {
+            return "L'employé n'a pas encore était recruté";
+        }
     }
 }
 
@@ -82,3 +103,40 @@ employees.push(employee2, employee3, employee4, employee5);
 console.log("Il y a " + employees.length + " employé(e)s.");
 console.log(employees);
 
+// comparer ancienneté
+
+let ancien = employees[0];
+for (let index = 0; index < employees.length; index++) {
+    if (employees[index].hiredate < ancien.hiredate) {
+        ancien = employees[index];
+    }
+
+}
+console.log("L'employé avec le plus d'ancienneté est " + ancien.nom + " " + ancien.prenom);
+
+//L'employé avec le mieux payé
+
+let hautSalaire = employees[0];
+for (let index = 0; index < employees.length; index++) {
+    if (employees[index].salaire > hautSalaire.salaire) {
+        hautSalaire = employees[index];
+    }
+
+}
+console.log("L'employé avec le plus haut salaire est " + hautSalaire.nom + " " + hautSalaire.prenom);
+
+//L'employé avec le moins bien payé
+
+let basSalaire = employees[0];
+for (let index = 0; index < employees.length; index++) {
+    if (employees[index].salaire < basSalaire.salaire) {
+        basSalaire = employees[index];
+    }
+
+}
+console.log("L'employé avec le plus bas salaire est " + basSalaire.nom + " " + basSalaire.prenom);
+
+//La différence de salaire entre les 2 précédents 
+
+let diffSalaire = hautSalaire.salaire - basSalaire.salaire;
+console.log("La différence de salaire entre le plus haut et le plus bas salaire est de " + diffSalaire + " €.");
