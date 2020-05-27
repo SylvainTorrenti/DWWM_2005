@@ -53,7 +53,7 @@ class Employee {
     }
     getancienity() {
         let maintenant = new Date();
-        let embaucheDate = new Date(this.hiredate.replace('-', ','));
+        let embaucheDate = new Date(this.hiredate.replace('-'));
         let diff = maintenant.getTime() - embaucheDate.getTime();
         diff = Math.floor(diff / (1000 * 60 * 60 * 24));
         let année = Math.floor(diff / 365);
@@ -114,7 +114,7 @@ for (let index = 0; index < employees.length; index++) {
 }
 console.log("L'employé avec le plus d'ancienneté est " + ancien.nom + " " + ancien.prenom);
 
-//L'employé avec le mieux payé
+//L'employé le mieux payé
 
 let hautSalaire = employees[0];
 for (let index = 0; index < employees.length; index++) {
@@ -125,7 +125,7 @@ for (let index = 0; index < employees.length; index++) {
 }
 console.log("L'employé avec le plus haut salaire est " + hautSalaire.nom + " " + hautSalaire.prenom);
 
-//L'employé avec le moins bien payé
+//L'employé le moins bien payé
 
 let basSalaire = employees[0];
 for (let index = 0; index < employees.length; index++) {
