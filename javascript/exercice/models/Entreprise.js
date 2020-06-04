@@ -43,10 +43,8 @@ class Enterprise {
         let emp = this.employees.find(emp => emp.id === parseInt(_id));
 
         if (emp !== undefined) {
-            // retourner une copie de l'employé
-            // cloner l'objet : let copie = Object.assign()
-            // moteur de recherche : MDN JS object assign
-            // moteur de recherche newbie: JS cloner objet
+            let clone = Object.assign(new Employee(), emp);
+            return clone;
         }
 
         return undefined;
@@ -57,17 +55,17 @@ class Enterprise {
      */
     update(_employee) {
 
-        if(!this.isValid(_employee)) {
+        if (!this.isValid(_employee)) {
             return _employee;
         }
 
-        if(_employee.id < 1 && _employee.id !== NaN) {
+        if (_employee.id < 1 && _employee.id !== NaN) {
             return _employee;
         }
 
         let exists = this.read(_employee.id);
 
-        if(exists !== undefined && exists === _employee) {
+        if (exists !== undefined && exists === _employee) {
 
         }
 

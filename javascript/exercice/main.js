@@ -55,9 +55,10 @@ fripouille.create(employee4);
 fripouille.create(employee5);
 
 fripouille.delete(4);
-fripouille.update(employee2, "maintenance");
+fripouille.update(employee2);
 fripouille.getLowerSalary(employee2, "1");
 console.log("Il y a " + fripouille.employees.length + " employé(e)s.");
-console.log(fripouille); // export des employés dans la console
+console.log(fripouille);
+console.log(fripouille.read(1));
 console.log(employee2);
-console.log(fripouille.read(3));
+
