@@ -7,13 +7,21 @@ class Enterprise {
     constructor() {
         this.employees = [];
     }
+    isValid(_employee) {
 
+
+        if (!(_employee instanceof Employee)) {
+            return false;
+        }
+
+        return true;
+    }
     /**
      * 
      * @param  _filter 
      */
     readAll(_filter) {
-
+        return this.employees.filter(_filter);
     }
 
     /**
@@ -21,28 +29,49 @@ class Enterprise {
      * @param Employee _employee 
      */
     create(_employee) {
-        this.employees.push(_employee);
-    }
+        if (this.isValid(_employee)) {
 
-    /**
-     * 
-     * @param int _id 
-     */
-    read(_id) {
-        for (let i = 0; i < this.employees.length; i++) {
-            if (this.employees[i].id == _id) {
-                return this.employees[i];
-                
-            }
+
+
+            this.employees.push(_employee);
         }
-    }
 
+        return _employee;
+    }
+    read(_id) {
+
+        let emp = this.employees.find(emp => emp.id === parseInt(_id));
+
+        if (emp !== undefined) {
+            // retourner une copie de l'employé
+            // cloner l'objet : let copie = Object.assign()
+            // moteur de recherche : MDN JS object assign
+            // moteur de recherche newbie: JS cloner objet
+        }
+
+        return undefined;
+    }
     /**
      * Met à jour un employé
      * @param Employee _employee 
      */
-    update(_employee, _newRole) {
-        _employee.role = _newRole;
+    update(_employee) {
+
+        if(!this.isValid(_employee)) {
+            return _employee;
+        }
+
+        if(_employee.id < 1 && _employee.id !== NaN) {
+            return _employee;
+        }
+
+        let exists = this.read(_employee.id);
+
+        if(exists !== undefined && exists === _employee) {
+
+        }
+
+        return _employee;
     }
 
     /**
