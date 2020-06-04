@@ -53,23 +53,8 @@ class Enterprise {
      * Met à jour un employé
      * @param Employee _employee 
      */
-    update(_employee) {
+    update() {
 
-        if (!this.isValid(_employee)) {
-            return _employee;
-        }
-
-        if (_employee.id < 1 && _employee.id !== NaN) {
-            return _employee;
-        }
-
-        let exists = this.read(_employee.id);
-
-        if (exists !== undefined && exists === _employee) {
-
-        }
-
-        return _employee;
     }
 
     /**
