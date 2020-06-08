@@ -43,6 +43,7 @@ class Enterprise {
         let emp = this.employees.find(emp => emp.id === parseInt(_id));
 
         if (emp !== undefined) {
+            
             let clone = Object.assign(new Employee(), emp);
             return clone;
         }
