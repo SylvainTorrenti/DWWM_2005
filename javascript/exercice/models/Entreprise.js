@@ -65,7 +65,7 @@ class Enterprise {
         for (let i = 0; i < this.employees.length; i++) {
             if (this.employees[i].id == _id) {
                 this.employees.splice(i, 1);
-                break;
+                return;
 
             }
         }
