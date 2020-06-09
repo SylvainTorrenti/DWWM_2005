@@ -1,3 +1,3 @@
   
-const Point = require('./Point.js');
-const Area = require('./Area.js');
+const Point = require('./models/points.js');
+const Area = require('./models/area.js');

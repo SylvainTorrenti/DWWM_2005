@@ -1,13 +1,20 @@
-Le poste de télévision:
+Le poste de télévison :
+    est un objet qui a des propriétes et peut être manipulé.
 
-La qualité du compilateur:
+La qualité du compilateur :
+    est un attribut.
 
-La deuxiéme guerre mondiale:
+La deuxiéme guerre mondiale :
+    a des attributs mais ne peut pas être manipulé.
 
-Jame Rumbaugh:
+James Rumbaugh :
+    est un objet qui a des propriétes et peut être manipulé.
 
-La racine carrée de 4:
+Une transaction boursiére :
+    est un objet qui a des propriétes et peut être manipulé.
 
-Une transaction boursiére:
+La racine carré de 4 :
+    peut être une méthode.
 
-La vitesse de la lumiére:
+La vitesse de la lumiére :
+    est une constante.

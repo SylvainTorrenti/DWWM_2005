@@ -1,0 +1,9 @@
+La bouteille peut être:
+- ouverte remplie
+- ouverte vide
+- fermée remplie
+- fermée vide
+- ouverte partiellement vide
+- ouverte partiellement pleine
+- fermée partiellement vide
+- fermée partiellement pleine
