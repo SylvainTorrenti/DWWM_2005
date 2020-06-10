@@ -1,4 +1,4 @@
-const Point = require('./Point.js');
+const Point = require('./Points.js');
 
 /**
  * Class Area
@@ -28,8 +28,7 @@ const Point = require('./Point.js');
  * 
  * 4) Renvoyer true
  */
-class Area 
-{
+class Area {
     /**
      * Constructeur: Initialise une nouvelle instance de la classe "Area"
      * La largeur et la hauteur définissent respectivement le nombre de colonnes et de lignes. 
@@ -39,8 +38,12 @@ class Area
     constructor(_width, _height) {
         this.width = _width;
         this.height = _height;
+        this.maxRange = this.width * this.height;
+        this.area = [];
+
+
     }
-    
+
 
     /**
      * Ajoute un "Point" dans la zone
@@ -53,7 +56,7 @@ class Area
             return false;
         }
 
-        // A vous de jouer
+        this.area.push(_point);
 
         return true;
     }
@@ -64,8 +67,26 @@ class Area
      * Les nouvelles coordonnées peuvent se trouver hors limites
      * @returns Boolean true en cas de succès, false en cas d'échec
      */
-    movePoint(/* déterminer les paramètres */) {
-        // implémenter la méthode
+    movePoint(_point, _x, _y) {
+        let alreadyUse = this.area.find((p) => p.x === _x && p.y === _y);
+        if (alreadyUse !== undefined) {
+            let i, j;
+
+            for (i = 0; i < this.width; i++) {
+                for (j = 0; j < this.height; j++) {
+                    let occupe = this.area.find((p) => p.x === i && p.y === j);
+                    if (occupe === undefined) {
+                        _point.move(i, j);
+                        return true;
+                    }
+                }
+            }
+        }
+        if (alreadyUse === undefined) {
+
+            _point.move(_x, _y);
+            return true;
+        }
     }
 
 
@@ -78,5 +99,5 @@ class Area
         // implémenter la méthode
     }
 }
-var area = new Area (4,4);
+
 module.exports = Area;
