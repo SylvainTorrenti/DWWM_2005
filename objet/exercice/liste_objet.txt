@@ -5,7 +5,7 @@ La qualité du compilateur :
     est un attribut.
 
 La deuxiéme guerre mondiale :
-    a des attributs mais ne peut pas être manipulé.
+    objet
 
 James Rumbaugh :
     est un objet qui a des propriétes et peut être manipulé.
