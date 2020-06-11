@@ -52,9 +52,12 @@ const aire_2 = new Area(8, 6);
     new Point(5, 15),
 ].forEach(a => aire_2.addPoint(a));
 
+
+//2 point avec même coordonées
 let p1 = new Point(0, 5);
 let p2 = new Point(0, 5);
 
+//ajout des points dans les zones
 aire_1.addPoint(p1);
 aire_2.addPoint(p2);
 
