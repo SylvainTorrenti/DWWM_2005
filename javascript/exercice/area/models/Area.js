@@ -17,12 +17,12 @@ const Point = require('./Points.js');
  *
  * ALGORITHME AJOUTER/DEPLACER UN POINT DANS UNE AREA: 
  *
- * 1) En cas d'ajout, si la zone (Area) est pleine (Toutes les coordonnées "dans les limites" sont occupées par un "Point")
+ * 1) En cas d'ajout, si la zone (Area) est pleine
  *    1.1) Ajout impossible, renvoyer false
  *
  * 2) Si un "Point" existe déjà aux mêmes coordonnées:
  *    2.1) Rechercher la position libre la plus proche du "Point" d'origine (0,0)
- *    2.2) Si 2 positions son éligibles (distance égale), celle la plus proche du bord supérieur de la zone est privilégiée
+ *    2.2) Si 2 positions sont éligibles (distance égale), celle la plus proche du bord supérieur de la zone est privilégiée
  *       
  * 3) Enregistrer le "Point" dans la zone
  * 
@@ -36,14 +36,12 @@ class Area {
      * @param int _height hauteur de la zone
      */
     constructor(_width, _height) {
-        this.width = _width;
-        this.height = _height;
-        this.maxRange = this.width * this.height;
+        this.width = parseInt(_width);
+        this.height = parseInt(_height);
+        this.size = (this.width * this.height);
         this.points = [];
-
-
+        this.points.push(new Point(0, 0)); // Le Point d'origine ne peut être supprimé et implicitement... ne peut être déplacé !
     }
-
 
     /**
      * Vérifie si la zone dispose d'emplacements libres
@@ -76,12 +74,12 @@ class Area {
      * Retourne la 1ère position libre dans la zone
      */
     firstFreeLocation() {
-        
+
         let result = [];
-        
-        for(let x = 0; x < this.width; x++) {
-            for(let y = 0; y < this.height; y++) {
-                if(this.isFreeXY(x, y)) {
+
+        for (let x = 0; x < this.width; x++) {
+            for (let y = 0; y < this.height; y++) {
+                if (this.isFreeXY(x, y)) {
                     result.push(new Point(x, y));
                 }
             }
@@ -89,7 +87,7 @@ class Area {
 
         return result.sort(this.closestFromOrigin)[0];
     }
-  
+
     /**
      * Vérifie la disponibilité des coordonnées du Point en argument
      * Si emplacement utilisé, déplace le Point vers un emplacement libre
@@ -97,10 +95,10 @@ class Area {
      */
     moveToFreeLocation(_point) {
 
-        if(!this.isFree(_point)) {
+        if (!this.isFree(_point)) {
             let free = this.firstFreeLocation();
 
-            if(free !== undefined) {
+            if (free !== undefined) {
                 _point.copy(free);
             }
         }
@@ -141,12 +139,12 @@ class Area {
      * Chaque Point hors des limites est automatiquement déplacé dans les limites vers la position libre la plus proche du Point d'origine (0,0)
      * @returns int le nombre de points déplacés
      */
-    needAllInside(/* déterminer les paramètres */) {
-        
+    needAllInside() {
+
         let nb = 0;
 
-        for(let p of this.points) {
-            if(p.x >= this.width || p.y >= this.height) {
+        for (let p of this.points) {
+            if (p.x >= this.width || p.y >= this.height) {
                 this.moveToFreeLocation(p);
                 nb++;
             }
@@ -157,26 +155,7 @@ class Area {
 
 
 
-    /**
-     * Callback de tri par distance par rapport au point d'origine (à utiliser avec Point[].sort())
-     * @param {Point} _p1 
-     * @param {Point} _p2 
-     */
-    closestFromOrigin(_p1, _p2) {
 
-        let compareDistance = (_x1, _x2) => (_x1 < _x2 ? -1 : (_x1 > _x2 ? 1 : 0));
-        
-        let d1 = _p1.distanceFromOrigin();
-        let d2 = _p2.distanceFromOrigin();
-        let d = compareDistance(d1, d2);
-
-        switch(d) {
-            case 0:
-                return compareDistance(_p1.x, _p2.x);
-            default: 
-                return d;
-        }
-    }
 }
 
 module.exports = Area;

@@ -61,5 +61,8 @@ let p2 = new Point(0, 5);
 aire_1.addPoint(p1);
 aire_2.addPoint(p2);
 
-console.log(aire_1);
-console.log(aire_2);
+console.log(aire_1.points);
+console.log(aire_2.points);
+
+
+
