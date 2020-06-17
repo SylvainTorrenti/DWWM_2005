@@ -13,9 +13,9 @@ class Point
       * @param int _y Coordonnée verticale du point (ordonnée). Valeur négative acceptée
       */
      constructor(_x, _y) {
-         this.setX(_x || 0);
-         this.setY(_y || 0);
-     }
+        this.x = parseInt(_x || 0);
+        this.y = parseInt(_y || 0);
+    }
  
      /**
       * Retourne une représentation textuelle du Point
@@ -29,7 +29,7 @@ class Point
       * Retourne la valeur de X
       * @returns int Abscisse
       */
-     getX() {
+     getX(_x) {
         return this.#x;
     }
 
@@ -37,7 +37,7 @@ class Point
       * Retourne la valeur de Y
      * @returns int Ordonnée
      */
-    getY() {
+    getY(_y) {
         return this.#y;
     }
 

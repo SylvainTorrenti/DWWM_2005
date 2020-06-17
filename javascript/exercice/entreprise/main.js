@@ -1,5 +1,5 @@
-const Employee = require('./models/Employee')
-const Entreprise = require('./models/Entreprise')
+const Employee = require('./models/Employee.js')
+const Entreprise = require('./models/Entreprise.js')
 
 
 let fripouille = new Entreprise();
