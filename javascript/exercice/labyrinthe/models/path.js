@@ -5,10 +5,10 @@ const Point = require('./point.js');
 class Path extends Point {
 
     /** @var Boolean */
-    #player;
+    player;
 
     /** @var int */
-    #nbPassages
+    nbPassages
 
     constructor(_x, _y, _player, _nbPassages) {
         super(_x, _y);
@@ -16,16 +16,16 @@ class Path extends Point {
         this.setNbPassages();
     }
     getPlayer() {
-        return this.#player;
+        return this.player;
     }
     setPlayer(_player) {
-        this.#player = (typeof (_player) === Boolean) ? _player : false;
+        this.player = (typeof (_player) === Boolean) ? _player : false;
     }
     getNbPassages() {
-        return this.#nbPassages;
+        return this.nbPassages;
     }
     setNbPassages(_nbPassages) {
-        this.#nbPassages = parseInt(_nbPassages || 0);
+        this.nbPassages = parseInt(_nbPassages || 0);
     }
 }
 module.exports = Path;

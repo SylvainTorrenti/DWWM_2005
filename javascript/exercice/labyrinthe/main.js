@@ -19,3 +19,4 @@ points.push(point1, point2, point3, point4, point5);
 var wall1 = new Wall(1,1,'wood');
 
 console.log(points);
+console.log(wall1);

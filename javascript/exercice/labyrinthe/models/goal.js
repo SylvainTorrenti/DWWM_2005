@@ -5,14 +5,14 @@ const Point = require('./point.js');
 class Goal extends Point {
 
     /** @var string */
-    #success;
+    success;
 
     constructor(_success) {
         super();
-        this.#success = _success;
+        this.success = _success;
     }
     getSucces() {
-        return this.#success;
+        return this.success;
     }
 
 }

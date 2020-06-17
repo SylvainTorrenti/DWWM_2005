@@ -7,13 +7,13 @@ class Door extends Wall {
 
     constructor(_x, _y) {
         super(_x, _y);
-        this.#isOpen = false;
+        this.isOpen = false;
     }
     getIsOpen() {
-        return this.#isOpen;
+        return this.isOpen;
     }
     openClose() {
-        this.#isOpen ? false : true;
+        this.isOpen ? false : true;
 
     }
 }

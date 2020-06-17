@@ -2,10 +2,10 @@ class Point
  {
 
     /** @var int x Abscisse */
-    #x;
+    x;
 
     /** @var int y Ordonnée */
-    #y;
+    y;
 
      /**
       * Constructeur: Initialise une nouvelle instance de la classe "Point"
@@ -30,7 +30,7 @@ class Point
       * @returns int Abscisse
       */
      getX(_x) {
-        return this.#x;
+        return this.x;
     }
 
     /**
@@ -38,7 +38,7 @@ class Point
      * @returns int Ordonnée
      */
     getY(_y) {
-        return this.#y;
+        return this.y;
     }
 
     /**
@@ -47,7 +47,7 @@ class Point
      */
     setX(_newX) {
         _newX = parseInt(_newX || 0);
-        this.#x = isFinite(_newX) ? _newX : 0;
+        this.x = isFinite(_newX) ? _newX : 0;
     }
 
     /**
@@ -56,7 +56,7 @@ class Point
      */
     setY(_newY) {
         _newY = parseInt(_newY || 0);
-        this.#y = isFinite(_newY) ? _newY : 0;
+        this.y = isFinite(_newY) ? _newY : 0;
     }
 
     /**
@@ -74,7 +74,7 @@ class Point
       * @returns Point La nouvelle instance de Point créée
       */
      duplicate() {
-        return new Point(this.#x, this.#y);
+        return new Point(this.x, this.y);
     }
 
     /**
@@ -82,8 +82,8 @@ class Point
       * @param Point _point le point à copier
       */
      copy(_point) {
-        this.#x = _point.#x;
-        this.#y = _point.#y;
+        this.x = _point.x;
+        this.y = _point.y;
     }
 
     /**
@@ -101,7 +101,7 @@ class Point
      * @returns int distance par rapport à la coordonnée (0,0)
      */
     distanceFromOrigin() {
-        return (this.#x + this.#y);
+        return (this.x + this.y);
     }
  
  }
