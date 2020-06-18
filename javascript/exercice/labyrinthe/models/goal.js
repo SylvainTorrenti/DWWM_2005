@@ -7,8 +7,8 @@ class Goal extends Point {
     /** @var string */
     success;
 
-    constructor(_success) {
-        super();
+    constructor(_x,_y,_success) {
+        super(_x,_y);
         this.success = _success;
     }
     getSucces() {
