@@ -61,8 +61,20 @@ let p2 = new Point(0, 5);
 aire_1.addPoint(p1);
 aire_2.addPoint(p2);
 
+
+console.log(aire_1.outOfBounds());
+console.log('Il y a ' + aire_1.needAllInside() + ' points qui ont été déplacés');
 console.log(aire_1.points);
+console.log('il y a ' + aire_1.freeEmplacement() + ' emplacement libres');
+
+
+
+
+console.log(aire_2.outOfBounds());
+console.log('Il y a ' + aire_2.needAllInside() + ' points qui ont été déplacés');
 console.log(aire_2.points);
+console.log('il y a ' + aire_2.freeEmplacement() + ' emplacement libres');
+
 
 
 

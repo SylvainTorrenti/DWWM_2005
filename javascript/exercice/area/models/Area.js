@@ -127,9 +127,23 @@ class Area {
      * Les nouvelles coordonnées peuvent se trouver hors limites
      * @returns Boolean true en cas de succès, false en cas d'échec
      */
-    movePoint(/* déterminer les paramètres */) {
-        if (!(_point instanceof Point)) {
+    movePoint(_point, _x, _y) {
+
+        // verifie que le point existe dans la zone
+        if (this.isFree(_point.x, _point.y)) {
+            //coordonnées libres : point inexistant
             return false;
+        }
+
+        //verifie la disponibilité des nouvelles coordonnées
+        if (this.isFree(_x, _y)) {
+            //point existant et nouvelles coordonnées non utilisées
+            _point.move(_x, _y);
+            return true;
+        } else {
+            //point existant et nouvelles coordonnées déjà utilisées :
+            this.moveOnFreeEmplacement(_point); //deplacement vers position la plus proche du point d'origine
+            return true;
         }
     }
 
@@ -153,9 +167,17 @@ class Area {
         return nb;
     }
 
-
-
-
+    outOfBounds() {
+        return this.points.filter(
+            (p) => p.x > this.width || p.y > this.height || p.x < 0 || p.y < 0
+        );
+    }
+    freeEmplacement() {
+        return this.size - this.points.length;
+    }
 }
+
+
+
 
 module.exports = Area;

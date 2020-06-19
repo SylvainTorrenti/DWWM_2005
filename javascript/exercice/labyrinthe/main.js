@@ -21,11 +21,11 @@ var door1 = new Door(2,2);
 var goal1 = new Goal(3,3,'success');
 var path1 = new Path(4,4)
 
-/* console.log(points);
+console.log(points);
 console.log(wall1);
 console.log(door1);
 console.log(goal1);
- */
+
 
 path1.setNbPassages(4);
 console.log(path1);
