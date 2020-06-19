@@ -2,10 +2,10 @@ class Point
  {
 
     /** @var int x Abscisse */
-    x;
+    #x;
 
     /** @var int y Ordonnée */
-    y;
+    #y;
 
      /**
       * Constructeur: Initialise une nouvelle instance de la classe "Point"
@@ -30,7 +30,7 @@ class Point
       * @returns int Abscisse
       */
      getX(_x) {
-        return this.x;
+        return this.#x;
     }
 
     /**
@@ -38,25 +38,25 @@ class Point
      * @returns int Ordonnée
      */
     getY(_y) {
-        return this.y;
+        return this.#y;
     }
 
     /**
-     * Définit une nouvell valeur pour X
+     * Définit une nouvelle valeur pour X
      * @param int _newX nouvelle valeur pour X 
      */
     setX(_newX) {
-        _newX = parseInt(_newX || 0);
-        this.x = isFinite(_newX) ? _newX : 0;
+        _newX = parseInt(_newX);
+        this.#x = isFinite(_newX) ? _newX : 0;
     }
 
     /**
-     * Définit une nouvell valeur pour Y
+     * Définit une nouvelle valeur pour Y
      * @param int _newY nouvelle valeur pour Y
      */
     setY(_newY) {
-        _newY = parseInt(_newY || 0);
-        this.y = isFinite(_newY) ? _newY : 0;
+        _newY = parseInt(_newY);
+        this.#y = isFinite(_newY) ? _newY : 0;
     }
 
     /**
@@ -74,20 +74,20 @@ class Point
       * @returns Point La nouvelle instance de Point créée
       */
      duplicate() {
-        return new Point(this.x, this.y);
+        return new Point(this.#x, this.#y);
     }
 
     /**
-      * copie les coordonnées du "Point" fourni en argument dans l'instance actuelle
+      * copie les coordonnées du "Point"
       * @param Point _point le point à copier
       */
      copy(_point) {
-        this.x = _point.x;
-        this.y = _point.y;
+        this.#x = _point.#x;
+        this.#y = _point.#y;
     }
 
     /**
-      * Les coordonnées de l'instance actuelle et du "Point" fourni en argument sont échangées
+      * Les coordonnées de l'instance actuelle et du "Point" en arguments sont échangées
       * @param Point _point Le point à échanger
       */
      rabbit(_point) {
@@ -97,11 +97,11 @@ class Point
     }
 
     /**
-     * Retourne la distance par rapport au point d'origine (0,0)
-     * @returns int distance par rapport à la coordonnée (0,0)
+     * Retourne la distance par rapport au point d'origine 
+     * @returns int distance par rapport à la coordonnée 
      */
     distanceFromOrigin() {
-        return (this.x + this.y);
+        return (this.#x + this.#y);
     }
  
  }
