@@ -18,9 +18,9 @@ class Path extends Point {
     getPlayer() {
         return this.player;
     }
-    setPlayer(_player) {
-        this.player = (typeof (_player) === Boolean) ? _player : false;
-    }
+    /* setPlayer(_player) {
+        this.player = _player;
+    } */
     getNbPassages() {
         return this.nbPassages;
     }
