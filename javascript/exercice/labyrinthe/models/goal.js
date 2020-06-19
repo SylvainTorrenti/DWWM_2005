@@ -4,14 +4,14 @@ const Point = require('./point.js');
 
 class Goal extends Point {
 
-    
+
     #success;
 
-    constructor(_x,_y,_success) {
-        super(_x,_y);
-        this.#success = _success;
+    constructor(_x, _y) {
+        super(_x, _y);
+        this.#success = true;
     }
-    getSucces() {
+    getSuccess() {
         return this.#success;
     }
 
