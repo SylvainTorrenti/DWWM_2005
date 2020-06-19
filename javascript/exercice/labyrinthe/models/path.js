@@ -4,28 +4,28 @@ const Point = require('./point.js');
 
 class Path extends Point {
 
-    /** @var Boolean */
-    player;
 
-    /** @var int */
-    nbPassages
 
-    constructor(_x, _y, _player, _nbPassages) {
+
+    #nbPassages
+    #player;
+    constructor(_x, _y,) {
         super(_x, _y);
-        this.setPlayer();
-        this.setNbPassages();
+
+        this.#nbPassages = 0;
+        this.#player = false;
     }
     getPlayer() {
-        return this.player;
+        return this.#player;
     }
     /* setPlayer(_player) {
         this.player = _player;
     } */
     getNbPassages() {
-        return this.nbPassages;
+        return this.#nbPassages;
     }
     setNbPassages(_nbPassages) {
-        this.nbPassages = parseInt(_nbPassages || 0);
+        this.#nbPassages = parseInt(_nbPassages);
     }
 }
 module.exports = Path;

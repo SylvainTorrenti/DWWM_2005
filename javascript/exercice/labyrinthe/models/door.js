@@ -2,14 +2,14 @@ const Wall = require('./wall.js');
 
 class Door extends Wall {
 
-    
+    #isOpen;
 
     constructor(_x,_y,_material) {
         super(_x,_y,_material);
-        this.isOpen = false;
+        this.#isOpen = false;
     }
     getIsOpen() {
-        return this.isOpen;
+        return this.#isOpen;
     }
     /* A revoir!!!!
     
