@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BibliothequeJeu421
 {
-    public class De
+    class Class2
     {
     }
 }
