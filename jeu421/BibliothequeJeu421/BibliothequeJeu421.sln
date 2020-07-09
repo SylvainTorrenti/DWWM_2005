@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliothequeJeu421", "BibliothequeJeu421.csproj", "{B9E6F297-4577-4E06-A9E5-8A629406893B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9E6F297-4577-4E06-A9E5-8A629406893B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E6F297-4577-4E06-A9E5-8A629406893B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E6F297-4577-4E06-A9E5-8A629406893B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E6F297-4577-4E06-A9E5-8A629406893B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC75036E-FFBB-4233-A376-2EF1C5D94EC0}
+	EndGlobalSection
+EndGlobal
