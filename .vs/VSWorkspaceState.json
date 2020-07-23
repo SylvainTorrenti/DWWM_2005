@@ -3,8 +3,10 @@
     "",
     "\\javascript",
     "\\javascript\\exercice",
-    "\\jeu421"
+    "\\jeu421\\BibliothequeJeu421",
+    "\\merise",
+    "\\merise\\exercice"
   ],
-  "SelectedNode": "\\jeu421",
+  "SelectedNode": "\\merise\\exercice\\preparation.txt",
   "PreviewInSolutionExplorer": false
 }
