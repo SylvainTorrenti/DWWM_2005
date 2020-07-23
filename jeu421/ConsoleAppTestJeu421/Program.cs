@@ -11,7 +11,8 @@ namespace ConsoleAppTestJeu421
     {
         static void Main(string[] args)
         {
-            De des;
+            De de;
+            
         }
     }
 }

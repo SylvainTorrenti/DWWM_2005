@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BibliothequeJeu421
 {
-    class Class2
+    public class De
     {
+        int valeurAleatoire = Alea.Instance().Nouveau(1, 6);
     }
 }
+
