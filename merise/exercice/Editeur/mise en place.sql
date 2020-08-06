@@ -9,7 +9,7 @@ create table if not exists booksellers
 	bookseller_id INT (11) not null primary key,
     bookseller_name varchar(50) not null ,
     bookseller_adress varchar(50) not null ,
-    bookseller_order varchar(50) not null
+    bookseller_order varchar(1000) not null
 );
 
 drop table if exists editions;
