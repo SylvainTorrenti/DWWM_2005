@@ -7,7 +7,7 @@ drop table if exists livre;
 CREATE TABLE IF NOT EXISTS livre (
 livre_ISBN int(13) primary key not null,
 livre_titre varchar(100) not null
-);
+)ENGINE=INNODB CHARSET UTF8 COLLATE UTF8_GENERAL_CI;
 
 drop table if exists exemplaire;
 CREATE TABLE IF NOT EXISTS exemplaire (
@@ -17,6 +17,9 @@ CREATE TABLE IF NOT EXISTS exemplaire (
     PRIMARY KEY (exemplaire_num , livre_ISBN),
     FOREIGN KEY (livre_ISBN)
         REFERENCES livre (livre_ISBN)
-);
+)ENGINE=INNODB CHARSET UTF8 COLLATE UTF8_GENERAL_CI;
+
+
+
 
 

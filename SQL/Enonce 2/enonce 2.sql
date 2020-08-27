@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS matiere (
     matiere_id INT(11) PRIMARY KEY,
     matiere_lib VARCHAR(50) UNIQUE,
     matiere_coef VARCHAR(2)
-);
+)ENGINE=INNODB CHARSET UTF8 COLLATE UTF8_GENERAL_CI;
 drop table if exists controle;
 CREATE TABLE IF NOT EXISTS controle (
     etudiant_id INT(11),

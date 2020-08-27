@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS vehicule (
     PRIMARY KEY (personnes_id , vehicule_immatriculation),
     FOREIGN KEY (personnes_id)
         REFERENCES personnes (personnes_id)
-)  ENGINE=INNODB CHARSET UTF8= COLLATE UTF8_GENERAL_CI;
+)  ENGINE=INNODB CHARSET UTF8 COLLATE UTF8_GENERAL_CI;
     
 
      
