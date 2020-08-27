@@ -12,19 +12,19 @@ CREATE TABLE IF NOT EXISTS personnes (
     personnes_rue VARCHAR(100) NOT NULL,
     personnes_cp INT(5) NOT NULL,
     personnes_ville VARCHAR(50) NOT NULL
-);
+)  ENGINE=INNODB CHARSET UTF8 COLLATE UTF8_GENERAL_CI;
 
 drop table if exists vehicule;
 CREATE TABLE IF NOT EXISTS vehicule (
-	personnes_id int(11) not null,
+    personnes_id INT(11) NOT NULL,
     vehicule_immatriculation VARCHAR(7) NOT NULL,
     vehicule_marque VARCHAR(10) NOT NULL,
     vehicule_kilométrage INT(6) NOT NULL,
     vehicule_date_mise_en_service DATE NOT NULL,
-    primary key (personnes_id, vehicule_immatriculation),
+    PRIMARY KEY (personnes_id , vehicule_immatriculation),
     FOREIGN KEY (personnes_id)
         REFERENCES personnes (personnes_id)
-);
+)  ENGINE=INNODB CHARSET UTF8= COLLATE UTF8_GENERAL_CI;
     
 
      

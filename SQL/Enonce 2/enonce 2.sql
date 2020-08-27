@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS etudiant (
     etudiant_nom VARCHAR(50),
     etudiant_prenom VARCHAR(50),
     etudiant_date_e DATE
-);
+)ENGINE=INNODB CHARSET UTF8 COLLATE UTF8_GENERAL_CI;
 
 drop table if exists matiere;
 CREATE TABLE IF NOT EXISTS matiere (
@@ -27,6 +27,6 @@ CREATE TABLE IF NOT EXISTS controle (
         REFERENCES etudiant (etudiant_id),
     FOREIGN KEY (matiere_id)
         REFERENCES matiere (matiere_id)
-);
+)ENGINE=INNODB CHARSET UTF8 COLLATE UTF8_GENERAL_CI;
     
 	
