@@ -1,7 +1,8 @@
 drop database if exists ex_editeur;
 CREATE database ex_editeur;
 
-use ex_editeur;
+USE ex_editeur;
+
 
 drop table if exists booksellers;
 create table if not exists booksellers
