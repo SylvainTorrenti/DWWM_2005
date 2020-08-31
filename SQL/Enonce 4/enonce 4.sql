@@ -5,19 +5,19 @@ use enonce_4;
 
 drop table if exists livre;
 CREATE TABLE IF NOT EXISTS livre (
-livre_ISBN int(13) primary key not null,
-livre_titre varchar(100) not null
-)ENGINE=INNODB CHARSET UTF8 COLLATE UTF8_GENERAL_CI;
+    livre_ISBN INT PRIMARY KEY NOT NULL,
+    livre_titre VARCHAR(100) NOT NULL
+)  ENGINE=INNODB CHARSET UTF8 COLLATE UTF8_GENERAL_CI;
 
 drop table if exists exemplaire;
 CREATE TABLE IF NOT EXISTS exemplaire (
-    livre_ISBN INT(13) NOT NULL,
-    exemplaire_num INT(3) NOT NULL,
+    livre_ISBN INT NOT NULL,
+    exemplaire_num INT NOT NULL,
     exemplaire_etat CHAR(1) NOT NULL DEFAULT 'D',
-    PRIMARY KEY (exemplaire_num , livre_ISBN),
-    FOREIGN KEY (livre_ISBN)
+    CONSTRAINT pk_exemplaire_livre PRIMARY KEY (exemplaire_num , livre_ISBN),
+    CONSTRAINT fk_livre FOREIGN KEY (livre_ISBN)
         REFERENCES livre (livre_ISBN)
-)ENGINE=INNODB CHARSET UTF8 COLLATE UTF8_GENERAL_CI;
+)  ENGINE=INNODB CHARSET UTF8 COLLATE UTF8_GENERAL_CI;
 
 
 
