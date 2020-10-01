@@ -2,15 +2,15 @@ USE tp_agence_voyages;
 
 DROP VIEW IF EXISTS info_client;
 CREATE VIEW info_client 
-AS 
+AS
 SELECT 
-client_lastname, 
+client_lastname,
 client_firstname,
-C1.com_code, 
-S1.com_name AS client_com, 
-S2.com_name AS client_com_substitute 
-FROM clients C1 
-INNER JOIN sales S1 ON C1.com_code = S1.com_code
-LEFT JOIN sales AS S2 ON S2.com_code = S1.com_substitute;
-
-SELECT * FROM info_client;
+client_email,
+trip_title,
+country_name
+FROM orders 
+JOIN clients ON orders.client_id = clients.client_id 
+JOIN trips ON orders.trip_code = trips.trip_code
+JOIN cities ON trips.city_code = cities.city_code
+JOIN countries ON cities.country_code = countries.country_code;
