@@ -11,4 +11,7 @@ namespace ClassLibraryLepidoptere
     {
         public abstract bool SeDeplacer();
     }
+    public abstract class DonneTonProchainEtat()
+        {
+        }
 }

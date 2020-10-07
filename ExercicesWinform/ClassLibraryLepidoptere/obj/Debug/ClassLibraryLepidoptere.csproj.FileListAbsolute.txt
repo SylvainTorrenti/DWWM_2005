@@ -1,0 +1,6 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ClassLibraryLepidoptere\bin\Debug\ClassLibraryLepidoptere.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ClassLibraryLepidoptere\bin\Debug\ClassLibraryLepidoptere.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ClassLibraryLepidoptere\obj\Debug\ClassLibraryLepidoptere.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ClassLibraryLepidoptere\obj\Debug\ClassLibraryLepidoptere.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ClassLibraryLepidoptere\obj\Debug\ClassLibraryLepidoptere.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ClassLibraryLepidoptere\obj\Debug\ClassLibraryLepidoptere.pdb

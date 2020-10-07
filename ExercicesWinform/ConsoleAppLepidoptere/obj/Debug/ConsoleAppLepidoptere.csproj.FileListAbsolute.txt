@@ -1,0 +1,10 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppLepidoptere\bin\Debug\ConsoleAppLepidoptere.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppLepidoptere\bin\Debug\ConsoleAppLepidoptere.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppLepidoptere\bin\Debug\ConsoleAppLepidoptere.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppLepidoptere\bin\Debug\ClassLibraryLepidoptere.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppLepidoptere\bin\Debug\ClassLibraryLepidoptere.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppLepidoptere\obj\Debug\ConsoleAppLepidoptere.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppLepidoptere\obj\Debug\ConsoleAppLepidoptere.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppLepidoptere\obj\Debug\ConsoleAppLepidoptere.csproj.CopyComplete
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppLepidoptere\obj\Debug\ConsoleAppLepidoptere.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppLepidoptere\obj\Debug\ConsoleAppLepidoptere.pdb

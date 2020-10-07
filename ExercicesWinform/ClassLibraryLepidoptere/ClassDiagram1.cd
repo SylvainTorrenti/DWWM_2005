@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClassLibraryLepidoptere.Lepidoptere">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAACAAAAAAAAAAAEAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Lepidoptere.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="monStadeCourant" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ClassLibraryLepidoptere.StadeDEvolution">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StadeDEvolution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryLepidoptere.Chenille">
+    <Position X="12" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chenille.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryLepidoptere.Chrysalide">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="ClassLibraryLepidoptere.StadeDEvolution" ManuallyRouted="true">
+      <Path>
+        <Point X="8.25" Y="1.796" />
+        <Point X="8.25" Y="3.125" />
+        <Point X="6.5" Y="3.125" />
+        <Point X="6.5" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chrysalide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryLepidoptere.Oeuf">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Oeuf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassLibraryLepidoptere.Papillon">
+    <Position X="8.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Papillon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
