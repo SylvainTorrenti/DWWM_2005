@@ -1,0 +1,10 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestLepidoptere\obj\Debug\ConsoleAppTestLepidoptere.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestLepidoptere\bin\Debug\ConsoleAppTestLepidoptere.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestLepidoptere\bin\Debug\ConsoleAppTestLepidoptere.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestLepidoptere\bin\Debug\ConsoleAppTestLepidoptere.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestLepidoptere\bin\Debug\ClassLibraryLepidoptere.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestLepidoptere\bin\Debug\ClassLibraryLepidoptere.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestLepidoptere\obj\Debug\ConsoleAppTestLepidoptere.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestLepidoptere\obj\Debug\ConsoleAppTestLepidoptere.csproj.CopyComplete
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestLepidoptere\obj\Debug\ConsoleAppTestLepidoptere.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestLepidoptere\obj\Debug\ConsoleAppTestLepidoptere.pdb
