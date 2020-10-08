@@ -1,0 +1,10 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestZoo\bin\Debug\ConsoleAppTestZoo.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestZoo\bin\Debug\ConsoleAppTestZoo.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestZoo\bin\Debug\ConsoleAppTestZoo.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestZoo\bin\Debug\ClassLibraryZoo.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestZoo\bin\Debug\ClassLibraryZoo.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestZoo\obj\Debug\ConsoleAppTestZoo.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestZoo\obj\Debug\ConsoleAppTestZoo.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestZoo\obj\Debug\ConsoleAppTestZoo.csproj.CopyComplete
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestZoo\obj\Debug\ConsoleAppTestZoo.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ConsoleAppTestZoo\obj\Debug\ConsoleAppTestZoo.pdb

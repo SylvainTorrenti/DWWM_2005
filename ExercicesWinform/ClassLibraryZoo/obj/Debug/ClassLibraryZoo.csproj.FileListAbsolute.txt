@@ -1,0 +1,6 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ClassLibraryZoo\bin\Debug\ClassLibraryZoo.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ClassLibraryZoo\bin\Debug\ClassLibraryZoo.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ClassLibraryZoo\obj\Debug\ClassLibraryZoo.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ClassLibraryZoo\obj\Debug\ClassLibraryZoo.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ClassLibraryZoo\obj\Debug\ClassLibraryZoo.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesWinform\ClassLibraryZoo\obj\Debug\ClassLibraryZoo.pdb
