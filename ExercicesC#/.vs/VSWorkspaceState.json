@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Lepidoptere"
+    "\\ClassLibraryForet",
+    "\\ConsoleAppTestForet",
+    "\\ConsoleAppTestZoo"
   ],
-  "SelectedNode": "\\ExercicesWinform.sln",
+  "SelectedNode": "\\ConsoleAppTestForet\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

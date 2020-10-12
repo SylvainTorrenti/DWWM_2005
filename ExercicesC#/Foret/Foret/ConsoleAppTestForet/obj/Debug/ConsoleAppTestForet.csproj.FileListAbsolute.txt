@@ -1,0 +1,10 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ConsoleAppTestForet\bin\Debug\ConsoleAppTestForet.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ConsoleAppTestForet\bin\Debug\ConsoleAppTestForet.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ConsoleAppTestForet\bin\Debug\ConsoleAppTestForet.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ConsoleAppTestForet\bin\Debug\ClassLibraryForet.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ConsoleAppTestForet\bin\Debug\ClassLibraryForet.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ConsoleAppTestForet\obj\Debug\ConsoleAppTestForet.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ConsoleAppTestForet\obj\Debug\ConsoleAppTestForet.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ConsoleAppTestForet\obj\Debug\ConsoleAppTestForet.csproj.CopyComplete
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ConsoleAppTestForet\obj\Debug\ConsoleAppTestForet.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ConsoleAppTestForet\obj\Debug\ConsoleAppTestForet.pdb

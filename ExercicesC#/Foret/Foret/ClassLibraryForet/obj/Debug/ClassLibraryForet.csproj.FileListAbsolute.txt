@@ -1,0 +1,6 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ClassLibraryForet\bin\Debug\ClassLibraryForet.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ClassLibraryForet\bin\Debug\ClassLibraryForet.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ClassLibraryForet\obj\Debug\ClassLibraryForet.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ClassLibraryForet\obj\Debug\ClassLibraryForet.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ClassLibraryForet\obj\Debug\ClassLibraryForet.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Foret\Foret\ClassLibraryForet\obj\Debug\ClassLibraryForet.pdb
