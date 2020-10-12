@@ -27,12 +27,9 @@ namespace ClassLibraryForet
             //set => nbNervures = value; 
         }
 
-        public void Tomber()
-        {
-            Console.WriteLine("Je tombe");
-        }
+        
 
-        public void PrendsTesCouleursDAutomne()
+        public void ChangeEnCouleursDAutomne()
         {
             if (this.couleurFeuille.Equals(EnumCouleur.Jaune))
             {
