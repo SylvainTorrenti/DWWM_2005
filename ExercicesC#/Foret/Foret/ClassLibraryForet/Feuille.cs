@@ -12,10 +12,7 @@ namespace ClassLibraryForet
         EnumCouleur couleurFeuille;
         EnumFormeFeuille formeFeuille;
 
-        public Feuille(int _nbNervures, EnumFormeFeuille _formeFeuille) : this(_nbNervures, EnumCouleur.Vert, _formeFeuille)
-        {
-
-        }
+       
         public Feuille(int _nbNervures, EnumCouleur _couleurFeuille, EnumFormeFeuille _formeFeuille)
         {
             this.nbNervures = _nbNervures;
