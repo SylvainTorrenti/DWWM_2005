@@ -27,19 +27,28 @@ namespace ClassLibraryForet
             //set => nbNervures = value; 
         }
 
-        
 
-        public void ChangeEnCouleursDAutomne()
+
+        public void ChangeCouleursAutomne()
         {
-            if (this.couleurFeuille.Equals(EnumCouleur.Jaune))
+            switch (couleurFeuille)
             {
-                this.couleurFeuille = EnumCouleur.Rouge;
+                case EnumCouleur.Vert:
+                    couleurFeuille = EnumCouleur.Jaune;
+                    break;
+                case EnumCouleur.Jaune:
+                    couleurFeuille = EnumCouleur.Orange;
+                    break;
+                case EnumCouleur.Orange:
+                    couleurFeuille = EnumCouleur.Rouge;
+                    break;
+                default:
+                    couleurFeuille = EnumCouleur.Rouge;
+                    break;
             }
-            else
-            {
-                this.couleurFeuille = EnumCouleur.Jaune;
-            }
+
         }
+
 
         public override string ToString()
         {

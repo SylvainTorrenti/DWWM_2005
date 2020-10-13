@@ -34,12 +34,19 @@ namespace ClassLibraryForet
             get => hauteur;
             //set => hauteur = value; 
         }
+        public void PassageEnAutomne()
+        {
+            foreach (Feuille f in feuilles)
+            {
+                f.ChangeCouleursAutomne();
+            }
+        }
 
         public override string ToString()
         {
             string str = base.ToString() + "\nHauteur : " + hauteur + "M";
 
-            if (this.feuilles.Count() > 0)
+            if (feuilles.Count > 0)
             {
                 str += "\nFeuilles :";
                 foreach (Feuille f in feuilles)
