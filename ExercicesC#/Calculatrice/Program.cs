@@ -16,7 +16,7 @@ namespace Calculatrice
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new calculatrice());
+            Application.Run(new Additionneur());
         }
     }
 }

@@ -10,87 +10,38 @@ using System.Windows.Forms;
 
 namespace Calculatrice
 {
-    public partial class calculatrice : Form
+    public partial class Additionneur : Form
     {
-        int somme = 0;
-        public calculatrice()
+        private int somme = 0;
+
+        public Additionneur()
         {
             InitializeComponent();
-            
+
         }
 
         private void button0_Click(object sender, EventArgs e)
         {
-            this.resultat.Text += "0+";
-            this.somme += 0;
-            
-        }
+            Button buttonNumber = (Button)sender;
+            int buttonValue = Int32.Parse(buttonNumber.Tag.ToString());
+            textBoxAffichageCalcul.Text += buttonValue + "+";
+            somme += buttonValue;
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            this.resultat.Text += "1+";
-            this.somme += 1;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.resultat.Text += "2+";
-            this.somme += 2;
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.resultat.Text += "3+";
-            this.somme += 3;
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            this.resultat.Text += "4+";
-            this.somme += 4;
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            this.resultat.Text += "5+";
-            this.somme += 5;
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            this.resultat.Text += "6+";
-            this.somme += 6;
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            this.resultat.Text += "7+";
-            this.somme += 7;
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            this.resultat.Text += "8+";
-            this.somme += 8;
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            this.resultat.Text += "9+";
-            this.somme += 9;
         }
 
         private void vider_Click(object sender, EventArgs e)
         {
-            resultat.Clear();
+            textBoxAffichageCalcul.Clear();
             somme = 0;
         }
 
-        private void calculer_Click(object sender, EventArgs e)
+        private void Calculer_Click(object sender, EventArgs e)
         {
+            textBoxAffichageCalcul.Text += "=" + somme + "+";
+        }
 
-            this.resultat.Text = "=" + this.somme.ToString() + "+";
-            
+        private void Additionneur_Load(object sender, EventArgs e)
+        {
 
         }
     }
