@@ -1,0 +1,12 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\bin\Debug\ConsoleAppValidationDeSaisie.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\bin\Debug\ConsoleAppValidationDeSaisie.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\bin\Debug\ConsoleAppValidationDeSaisie.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\bin\Debug\ClassLibraryValidationDeSaisie.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\bin\Debug\ClassLibraryValidationDeSaisie.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\obj\Debug\ConsoleAppValidationDeSaisie.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\obj\Debug\ConsoleAppValidationDeSaisie.LesControle.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\obj\Debug\ConsoleAppValidationDeSaisie.csproj.GenerateResource.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\obj\Debug\ConsoleAppValidationDeSaisie.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\obj\Debug\ConsoleAppValidationDeSaisie.csproj.CopyComplete
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\obj\Debug\ConsoleAppValidationDeSaisie.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\obj\Debug\ConsoleAppValidationDeSaisie.pdb
