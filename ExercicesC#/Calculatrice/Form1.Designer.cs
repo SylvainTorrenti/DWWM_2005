@@ -58,7 +58,7 @@
             // 
             this.button0.Location = new System.Drawing.Point(28, 173);
             this.button0.Name = "button0";
-            this.button0.Size = new System.Drawing.Size(59, 53);
+            this.button0.Size = new System.Drawing.Size(72, 53);
             this.button0.TabIndex = 2;
             this.button0.Tag = "0";
             this.button0.Text = "0";
@@ -69,7 +69,7 @@
             // 
             this.button1.Location = new System.Drawing.Point(106, 173);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(59, 53);
+            this.button1.Size = new System.Drawing.Size(70, 53);
             this.button1.TabIndex = 3;
             this.button1.Tag = "1";
             this.button1.Text = "1";
@@ -80,7 +80,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(182, 173);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(59, 53);
+            this.button2.Size = new System.Drawing.Size(69, 53);
             this.button2.TabIndex = 4;
             this.button2.Tag = "2";
             this.button2.Text = "2";
@@ -91,7 +91,7 @@
             // 
             this.button3.Location = new System.Drawing.Point(257, 173);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(59, 53);
+            this.button3.Size = new System.Drawing.Size(64, 53);
             this.button3.TabIndex = 5;
             this.button3.Tag = "3";
             this.button3.Text = "3";
@@ -102,7 +102,7 @@
             // 
             this.button4.Location = new System.Drawing.Point(327, 173);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(59, 53);
+            this.button4.Size = new System.Drawing.Size(72, 53);
             this.button4.TabIndex = 6;
             this.button4.Tag = "4";
             this.button4.Text = "4";
@@ -113,7 +113,7 @@
             // 
             this.button5.Location = new System.Drawing.Point(28, 232);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(59, 53);
+            this.button5.Size = new System.Drawing.Size(72, 53);
             this.button5.TabIndex = 7;
             this.button5.Tag = "5";
             this.button5.Text = "5";
@@ -124,7 +124,7 @@
             // 
             this.button6.Location = new System.Drawing.Point(106, 232);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(59, 53);
+            this.button6.Size = new System.Drawing.Size(70, 53);
             this.button6.TabIndex = 8;
             this.button6.Tag = "6";
             this.button6.Text = "6";
@@ -135,7 +135,7 @@
             // 
             this.button7.Location = new System.Drawing.Point(182, 232);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(59, 53);
+            this.button7.Size = new System.Drawing.Size(69, 53);
             this.button7.TabIndex = 9;
             this.button7.Tag = "7";
             this.button7.Text = "7";
@@ -146,7 +146,7 @@
             // 
             this.button8.Location = new System.Drawing.Point(257, 232);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(59, 53);
+            this.button8.Size = new System.Drawing.Size(64, 53);
             this.button8.TabIndex = 10;
             this.button8.Tag = "8";
             this.button8.Text = "8";
@@ -157,7 +157,7 @@
             // 
             this.button9.Location = new System.Drawing.Point(327, 232);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(59, 53);
+            this.button9.Size = new System.Drawing.Size(72, 53);
             this.button9.TabIndex = 11;
             this.button9.Tag = "9";
             this.button9.Text = "9";
@@ -168,7 +168,7 @@
             // 
             this.vider.Location = new System.Drawing.Point(28, 306);
             this.vider.Name = "vider";
-            this.vider.Size = new System.Drawing.Size(137, 32);
+            this.vider.Size = new System.Drawing.Size(148, 32);
             this.vider.TabIndex = 12;
             this.vider.Text = "Vider";
             this.vider.UseVisualStyleBackColor = true;
@@ -176,9 +176,9 @@
             // 
             // Calculer
             // 
-            this.Calculer.Location = new System.Drawing.Point(239, 306);
+            this.Calculer.Location = new System.Drawing.Point(257, 306);
             this.Calculer.Name = "Calculer";
-            this.Calculer.Size = new System.Drawing.Size(137, 32);
+            this.Calculer.Size = new System.Drawing.Size(142, 32);
             this.Calculer.TabIndex = 13;
             this.Calculer.Text = "Calculer";
             this.Calculer.UseVisualStyleBackColor = true;
