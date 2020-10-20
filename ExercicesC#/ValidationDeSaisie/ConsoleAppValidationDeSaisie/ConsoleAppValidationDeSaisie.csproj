@@ -63,9 +63,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryFacture\ClassLibraryFacture.csproj">
+      <Project>{bf2ea6f0-c3d9-4125-9621-de60b621d4fa}</Project>
+      <Name>ClassLibraryFacture</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ClassLibraryValidationDeSaisie\ClassLibraryValidationDeSaisie.csproj">
       <Project>{0da38e0c-b29e-4b05-8277-365631632594}</Project>
       <Name>ClassLibraryValidationDeSaisie</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibraryVerification\ClassLibraryVerification.csproj">
+      <Project>{92911896-1a6b-483a-94c1-1ddb4ee0db1d}</Project>
+      <Name>ClassLibraryVerification</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

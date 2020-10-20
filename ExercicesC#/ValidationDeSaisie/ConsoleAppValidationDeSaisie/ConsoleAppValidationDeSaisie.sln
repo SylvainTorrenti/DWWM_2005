@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppValidationDeSaisi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryValidationDeSaisie", "..\ClassLibraryValidationDeSaisie\ClassLibraryValidationDeSaisie.csproj", "{0DA38E0C-B29E-4B05-8277-365631632594}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryVerification", "..\ClassLibraryVerification\ClassLibraryVerification.csproj", "{92911896-1A6B-483A-94C1-1DDB4EE0DB1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryFacture", "..\ClassLibraryFacture\ClassLibraryFacture.csproj", "{BF2EA6F0-C3D9-4125-9621-DE60B621D4FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0DA38E0C-B29E-4B05-8277-365631632594}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DA38E0C-B29E-4B05-8277-365631632594}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DA38E0C-B29E-4B05-8277-365631632594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92911896-1A6B-483A-94C1-1DDB4EE0DB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92911896-1A6B-483A-94C1-1DDB4EE0DB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92911896-1A6B-483A-94C1-1DDB4EE0DB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92911896-1A6B-483A-94C1-1DDB4EE0DB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2EA6F0-C3D9-4125-9621-DE60B621D4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2EA6F0-C3D9-4125-9621-DE60B621D4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2EA6F0-C3D9-4125-9621-DE60B621D4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2EA6F0-C3D9-4125-9621-DE60B621D4FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

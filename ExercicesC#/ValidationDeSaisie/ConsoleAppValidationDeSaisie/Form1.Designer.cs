@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.labelNom = new System.Windows.Forms.Label();
             this.labelDate = new System.Windows.Forms.Label();
             this.labelMontant = new System.Windows.Forms.Label();
@@ -38,6 +39,8 @@
             this.tbCP = new System.Windows.Forms.TextBox();
             this.buttonValider = new System.Windows.Forms.Button();
             this.buttonEffacer = new System.Windows.Forms.Button();
+            this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // labelNom
@@ -128,6 +131,11 @@
             this.buttonEffacer.UseVisualStyleBackColor = true;
             this.buttonEffacer.Click += new System.EventHandler(this.buttonEffacer_Click);
             // 
+            // errorProvider
+            // 
+            this.errorProvider.ContainerControl = this;
+            this.errorProvider.RightToLeftChanged += new System.EventHandler(this.Input_TextChanged);
+            // 
             // LesControle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -146,6 +154,8 @@
             this.Name = "LesControle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Les Contrôles";
+            this.Load += new System.EventHandler(this.LesControle_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -163,5 +173,6 @@
         private System.Windows.Forms.TextBox tbCP;
         private System.Windows.Forms.Button buttonValider;
         private System.Windows.Forms.Button buttonEffacer;
+        private System.Windows.Forms.ErrorProvider errorProvider;
     }
 }
