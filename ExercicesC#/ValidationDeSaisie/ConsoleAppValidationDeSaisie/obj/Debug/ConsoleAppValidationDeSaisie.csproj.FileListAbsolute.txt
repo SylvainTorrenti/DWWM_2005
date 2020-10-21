@@ -12,3 +12,5 @@ C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisi
 C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\obj\Debug\ConsoleAppValidationDeSaisie.pdb
 C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\bin\Debug\ClassLibraryVerification.dll
 C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\bin\Debug\ClassLibraryVerification.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\bin\Debug\ClassLibraryFacture.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ConsoleAppValidationDeSaisie\bin\Debug\ClassLibraryFacture.pdb

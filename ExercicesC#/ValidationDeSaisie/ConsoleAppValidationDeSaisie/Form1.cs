@@ -1,7 +1,6 @@
 ﻿using ClassLibraryFacture;
 using ClassLibraryVerification;
 using System;
-using System.Media;
 using System.Windows.Forms;
 
 namespace ConsoleAppValidationDeSaisie
@@ -14,13 +13,7 @@ namespace ConsoleAppValidationDeSaisie
         }
         private void Input_TextChanged(object sender, EventArgs e)
         {
-            TextBox input = (TextBox)sender;
-
-        }
-
-        private void tbNom_TextChanged(object sender, EventArgs e)
-        {
-            if (tbNom.Text.Length > 0)
+            if (tbNom.Text.Length > 0 & tbDate.Text.Length > 0 & tbMontant.Text.Length > 0 & tbCP.Text.Length > 0)
             {
                 buttonValider.Enabled = true;
             }
@@ -28,56 +21,9 @@ namespace ConsoleAppValidationDeSaisie
             {
                 buttonValider.Enabled = false;
             }
+            errorProvider.Clear();
 
         }
-
-        private void tbDate_TextChanged(object sender, EventArgs e)
-        {
-            if (!Verification.ValidDate(tbDate.Text))
-            {
-                if (tbDate.TextLength < 1)
-                {
-                    controlErrorProvider.SetError(tbDate, "Champ obligatoire");
-                }
-                else
-                {
-                    controlErrorProvider.SetError(tbDate, "Format de date invalide");
-                    SystemSounds.Exclamation.Play();
-                }
-            }
-            else if (DateTime.Parse(tbDate.Text) <= DateTime.Now)
-            {
-                controlErrorProvider.SetError(tbDate, "La date doit être postérieure à aujourd'hui ");
-                SystemSounds.Exclamation.Play();
-            }
-        }
-
-        private void tbMontant_TextChanged(object sender, EventArgs e)
-        {
-            if (tbMontant.Text.Length > 0)
-            {
-                buttonValider.Enabled = true;
-            }
-            else
-            {
-                buttonValider.Enabled = false;
-            }
-
-        }
-
-        private void tbCP_TextChanged(object sender, EventArgs e)
-        {
-            if (tbCP.Text.Length > 0)
-            {
-                buttonValider.Enabled = true;
-            }
-            else
-            {
-                buttonValider.Enabled = false;
-            }
-
-        }
-
         private void buttonValider_Click(object sender, EventArgs e)
         {
             string textnom = tbNom.Text;
@@ -90,6 +36,28 @@ namespace ConsoleAppValidationDeSaisie
             bool cpIsOk = Verification.ValidCP(textcp);
             bool dateIsOk = Verification.ValidDate(textdate);
 
+            if (cpIsOk == false)
+            {
+                errorProvider.SetError(tbCP, "Erreur de saisie! Doit être au format '*****'");
+                Verification.ErreurSaisie(tbCP);
+            }
+            if (montantIsOk == false)
+            {
+                errorProvider.SetError(tbMontant, "Erreur de saisie.");
+                Verification.ErreurSaisie(tbMontant);
+            }
+            if (dateIsOk == false)
+            {
+                errorProvider.SetError(tbDate, "Erreur dans la date! Doit être au format (jj/mm/AAAA)");
+                Verification.ErreurSaisie(tbDate);
+            }
+            if (nomIsOk == false)
+            {
+                errorProvider.SetError(tbNom, "Le nom n'est pas valable.");
+                Verification.ErreurSaisie(tbNom);
+            }
+
+
             string validOut = "Nom :  " + textnom + "\nDate :   " + textdate + "\nMontant :   " + textmontant.ToString() + "\nCP :   " + textcp.ToString();
 
             if (nomIsOk & montantIsOk & dateIsOk & cpIsOk)
@@ -100,16 +68,14 @@ namespace ConsoleAppValidationDeSaisie
 
         }
 
-
-
         private void buttonEffacer_Click(object sender, EventArgs e)
         {
             tbNom.Clear();
             tbDate.Clear();
             tbMontant.Clear();
             tbCP.Clear();
+            errorProvider.Clear();
         }
-
         private void LesControle_Load(object sender, EventArgs e)
         {
 

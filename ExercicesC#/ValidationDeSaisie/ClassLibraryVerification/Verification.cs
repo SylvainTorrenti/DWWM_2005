@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Media;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
 
 namespace ClassLibraryVerification
 {
@@ -48,6 +50,11 @@ namespace ClassLibraryVerification
         {
             return Regex.IsMatch(_cp, regexCp);
 
+        }
+        public static void ErreurSaisie(TextBox textbox)
+        {
+            textbox.Focus();
+            SystemSounds.Exclamation.Play();
         }
 
     }

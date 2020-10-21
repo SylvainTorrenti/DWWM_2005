@@ -10,7 +10,13 @@ namespace ClassLibraryFacture
         private float montant;
         private string codePostal;
 
-
+        public Facture()
+        {
+            nom = "";
+            date = DateTime.Now;
+            montant = 0;
+            codePostal = "00000";
+        }
         public Facture(string _nom, DateTime _date, float _montant, string _codePostal)
         {
             this.nom = _nom;
@@ -18,6 +24,15 @@ namespace ClassLibraryFacture
             this.montant = _montant;
             this.codePostal = _codePostal;
 
+        }
+
+        public override string ToString()
+        {
+            return
+                $"Name : {nom}\n" +
+                $"Date : {date:dd/MM/yyyy}\n" +
+                $"Amount : {Math.Round(montant, 2)}\n" +
+                $"Zip Code : {codePostal}";
         }
     }
 }

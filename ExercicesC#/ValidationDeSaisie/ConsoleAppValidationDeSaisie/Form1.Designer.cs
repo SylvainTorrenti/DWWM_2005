@@ -85,7 +85,7 @@
             this.tbNom.Name = "tbNom";
             this.tbNom.Size = new System.Drawing.Size(100, 20);
             this.tbNom.TabIndex = 4;
-            this.tbNom.TextChanged += new System.EventHandler(this.tbNom_TextChanged);
+            this.tbNom.TextChanged += new System.EventHandler(this.Input_TextChanged);
             // 
             // tbDate
             // 
@@ -93,7 +93,7 @@
             this.tbDate.Name = "tbDate";
             this.tbDate.Size = new System.Drawing.Size(100, 20);
             this.tbDate.TabIndex = 5;
-            this.tbDate.TextChanged += new System.EventHandler(this.tbDate_TextChanged);
+            this.tbDate.TextChanged += new System.EventHandler(this.Input_TextChanged);
             // 
             // tbMontant
             // 
@@ -101,7 +101,7 @@
             this.tbMontant.Name = "tbMontant";
             this.tbMontant.Size = new System.Drawing.Size(100, 20);
             this.tbMontant.TabIndex = 6;
-            this.tbMontant.TextChanged += new System.EventHandler(this.tbMontant_TextChanged);
+            this.tbMontant.TextChanged += new System.EventHandler(this.Input_TextChanged);
             // 
             // tbCP
             // 
@@ -109,7 +109,7 @@
             this.tbCP.Name = "tbCP";
             this.tbCP.Size = new System.Drawing.Size(100, 20);
             this.tbCP.TabIndex = 7;
-            this.tbCP.TextChanged += new System.EventHandler(this.tbCP_TextChanged);
+            this.tbCP.TextChanged += new System.EventHandler(this.Input_TextChanged);
             // 
             // buttonValider
             // 
@@ -160,6 +160,8 @@
             this.PerformLayout();
 
         }
+
+        
 
         #endregion
 
