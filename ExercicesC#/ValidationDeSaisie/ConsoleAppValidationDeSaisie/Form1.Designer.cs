@@ -151,6 +151,7 @@
             this.Controls.Add(this.labelMontant);
             this.Controls.Add(this.labelDate);
             this.Controls.Add(this.labelNom);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "LesControle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Les Contrôles";
