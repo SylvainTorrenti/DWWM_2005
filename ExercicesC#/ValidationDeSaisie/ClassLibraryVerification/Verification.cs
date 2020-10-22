@@ -19,12 +19,12 @@ namespace ClassLibraryVerification
             {
                 return false;
             }
-            DateTime billDate = new DateTime();
-            if (!DateTime.TryParseExact(_date, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.AssumeLocal, out billDate))
+            DateTime factureDate = new DateTime();
+            if (!DateTime.TryParseExact(_date, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.AssumeLocal, out factureDate))
             {
                 return false;
             }
-            if (!(billDate <= DateTime.Today))
+            if (factureDate <= DateTime.Today)
             {
                 return false;
             }

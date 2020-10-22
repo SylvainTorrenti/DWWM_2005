@@ -26,6 +26,11 @@ namespace ClassLibraryFacture
 
         }
 
+        public string Nom { get => nom; set => nom = value; }
+        public DateTime Date { get => date; set => date = value; }
+        public float Montant { get => montant; set => montant = value; }
+        public string CodePostal { get => codePostal; set => codePostal = value; }
+
         public override string ToString()
         {
             return

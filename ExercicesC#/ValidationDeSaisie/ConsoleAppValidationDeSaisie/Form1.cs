@@ -7,9 +7,21 @@ namespace ConsoleAppValidationDeSaisie
 {
     public partial class LesControle : Form
     {
+        Facture factureActuelle;
         public LesControle()
         {
+            factureActuelle = new Facture();
             InitializeComponent();
+        }
+        public LesControle(Facture facture)
+        {
+            InitializeComponent();
+            factureActuelle = facture;
+            tbNom.Text = factureActuelle.Nom;
+            tbDate.Text = factureActuelle.Date.ToString("dd/MM/yyyy");
+            tbMontant.Text = factureActuelle.Montant.ToString();
+            tbCP.Text = factureActuelle.CodePostal;
+            this.buttonValider.Text = "Modifier";
         }
         private void Input_TextChanged(object sender, EventArgs e)
         {
