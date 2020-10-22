@@ -15,8 +15,20 @@ namespace ClassLibraryVerification
 
         public static bool ValidDate(string _date)
         {
-            return DateTime.TryParse(_date, out DateTime result);
-
+            if (_date.Length != 10)
+            {
+                return false;
+            }
+            DateTime billDate = new DateTime();
+            if (!DateTime.TryParseExact(_date, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.AssumeLocal, out billDate))
+            {
+                return false;
+            }
+            if (!(billDate <= DateTime.Today))
+            {
+                return false;
+            }
+            return true;
         }
 
         public static bool ValidNom(string _nom)
