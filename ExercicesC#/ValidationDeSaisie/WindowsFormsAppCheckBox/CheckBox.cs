@@ -19,33 +19,17 @@ namespace WindowsFormsAppCheckBox
 
         private void tbInput_TextChanged(object sender, EventArgs e)
         {
+            lModifier.Text = tbInput.Text;
             if (tbInput.TextLength>0)
             {
-                cbCasse.Enabled = true;
-                cbChar.Enabled = true;
-                cbFond.Enabled = true;
-                lModifier.Text = tbInput.Text;
+                gbChoix.Enabled = true;   
             }
             else
             {
-                cbCasse.Enabled = false;
-                cbChar.Enabled = false;
-                cbFond.Enabled = false;
-                rdFondBleu.Visible = false;
-                rdFondRouge.Visible = false;
-                rdFondVert.Visible = false;
-                rdCharNoir.Visible = false;
-                rdCharBlanc.Visible = false;
-                rdCharRouge.Visible = false;
-                rdMin.Visible = false;
-                rdMaj.Visible = false;
+                gbChoix.Enabled = false;
                 cbCasse.Checked = false;
                 cbChar.Checked = false;
                 cbFond.Checked = false;
-                lModifier.Text = " ";
-                lModifier.BackColor = SystemColors.Control;
-                lModifier.ForeColor = System.Drawing.Color.Black;
-
             }
         }
 
@@ -62,6 +46,7 @@ namespace WindowsFormsAppCheckBox
                 rdFondBleu.Visible = false;
                 rdFondRouge.Visible = false;
                 rdFondVert.Visible = false;
+                lModifier.BackColor = SystemColors.Control;
             }
         }
 
@@ -78,6 +63,7 @@ namespace WindowsFormsAppCheckBox
                 rdCharNoir.Visible = false;
                 rdCharBlanc.Visible = false;
                 rdCharRouge.Visible = false;
+                lModifier.ForeColor = System.Drawing.Color.Black;
             }
         }
 

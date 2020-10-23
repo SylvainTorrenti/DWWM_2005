@@ -43,6 +43,9 @@
             this.rdMaj = new System.Windows.Forms.RadioButton();
             this.lModifier = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.gbChoix = new System.Windows.Forms.GroupBox();
+            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
+            this.gbChoix.SuspendLayout();
             this.SuspendLayout();
             // 
             // lTexte
@@ -65,8 +68,7 @@
             // cbFond
             // 
             this.cbFond.AutoSize = true;
-            this.cbFond.Enabled = false;
-            this.cbFond.Location = new System.Drawing.Point(609, 45);
+            this.cbFond.Location = new System.Drawing.Point(6, 19);
             this.cbFond.Name = "cbFond";
             this.cbFond.Size = new System.Drawing.Size(101, 17);
             this.cbFond.TabIndex = 2;
@@ -77,8 +79,7 @@
             // cbChar
             // 
             this.cbChar.AutoSize = true;
-            this.cbChar.Enabled = false;
-            this.cbChar.Location = new System.Drawing.Point(609, 78);
+            this.cbChar.Location = new System.Drawing.Point(6, 42);
             this.cbChar.Name = "cbChar";
             this.cbChar.Size = new System.Drawing.Size(135, 17);
             this.cbChar.TabIndex = 3;
@@ -89,8 +90,7 @@
             // cbCasse
             // 
             this.cbCasse.AutoSize = true;
-            this.cbCasse.Enabled = false;
-            this.cbCasse.Location = new System.Drawing.Point(609, 115);
+            this.cbCasse.Location = new System.Drawing.Point(6, 65);
             this.cbCasse.Name = "cbCasse";
             this.cbCasse.Size = new System.Drawing.Size(55, 17);
             this.cbCasse.TabIndex = 4;
@@ -215,11 +215,25 @@
             // 
             this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             // 
+            // gbChoix
+            // 
+            this.gbChoix.Controls.Add(this.cbFond);
+            this.gbChoix.Controls.Add(this.cbChar);
+            this.gbChoix.Controls.Add(this.cbCasse);
+            this.gbChoix.Enabled = false;
+            this.gbChoix.Location = new System.Drawing.Point(584, 12);
+            this.gbChoix.Name = "gbChoix";
+            this.gbChoix.Size = new System.Drawing.Size(204, 84);
+            this.gbChoix.TabIndex = 14;
+            this.gbChoix.TabStop = false;
+            this.gbChoix.Text = "Choix";
+            // 
             // CheckBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.gbChoix);
             this.Controls.Add(this.lModifier);
             this.Controls.Add(this.rdMaj);
             this.Controls.Add(this.rdMin);
@@ -229,15 +243,14 @@
             this.Controls.Add(this.rdFondBleu);
             this.Controls.Add(this.rdFondVert);
             this.Controls.Add(this.rdFondRouge);
-            this.Controls.Add(this.cbCasse);
-            this.Controls.Add(this.cbChar);
-            this.Controls.Add(this.cbFond);
             this.Controls.Add(this.tbInput);
             this.Controls.Add(this.lTexte);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "CheckBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Check Box";
+            this.gbChoix.ResumeLayout(false);
+            this.gbChoix.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -260,6 +273,8 @@
         private System.Windows.Forms.RadioButton rdMaj;
         private System.Windows.Forms.Label lModifier;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.GroupBox gbChoix;
+        private System.ComponentModel.BackgroundWorker backgroundWorker2;
     }
 }
 
