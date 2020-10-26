@@ -1,0 +1,10 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\bin\Debug\WindowsFormsAppListeBox.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\bin\Debug\WindowsFormsAppListeBox.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\bin\Debug\WindowsFormsAppListeBox.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\obj\Debug\WindowsFormsAppListeBox.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\obj\Debug\WindowsFormsAppListeBox.ListeBox.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\obj\Debug\WindowsFormsAppListeBox.Properties.Resources.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\obj\Debug\WindowsFormsAppListeBox.csproj.GenerateResource.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\obj\Debug\WindowsFormsAppListeBox.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\obj\Debug\WindowsFormsAppListeBox.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\obj\Debug\WindowsFormsAppListeBox.pdb
