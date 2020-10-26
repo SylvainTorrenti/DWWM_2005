@@ -77,6 +77,7 @@
             this.tbNom.Size = new System.Drawing.Size(100, 20);
             this.tbNom.TabIndex = 3;
             this.tbNom.TextChanged += new System.EventHandler(this.Input_TextChanged);
+            this.tbNom.Leave += new System.EventHandler(this.focus_nom);
             // 
             // tbDate
             // 
@@ -85,6 +86,7 @@
             this.tbDate.Size = new System.Drawing.Size(100, 20);
             this.tbDate.TabIndex = 4;
             this.tbDate.TextChanged += new System.EventHandler(this.Input_TextChanged);
+            this.tbDate.Leave += new System.EventHandler(this.focus_date);
             // 
             // tbMontant
             // 
@@ -93,6 +95,7 @@
             this.tbMontant.Size = new System.Drawing.Size(100, 20);
             this.tbMontant.TabIndex = 5;
             this.tbMontant.TextChanged += new System.EventHandler(this.Input_TextChanged);
+            this.tbMontant.Leave += new System.EventHandler(this.focus_montant);
             // 
             // tbCP
             // 
@@ -101,6 +104,7 @@
             this.tbCP.Size = new System.Drawing.Size(100, 20);
             this.tbCP.TabIndex = 6;
             this.tbCP.TextChanged += new System.EventHandler(this.Input_TextChanged);
+            this.tbCP.Leave += new System.EventHandler(this.focus_CP);
             // 
             // label4
             // 

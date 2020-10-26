@@ -29,10 +29,12 @@ namespace ConsoleAppValidationDeSaisie
         }
         private void Input_TextChanged(object sender, EventArgs e)
         {
+
             if (tbNom.Text.Length > 0 & tbDate.Text.Length > 0 & tbMontant.Text.Length > 0 & tbCP.Text.Length > 0)
             {
                 buttonValider.Enabled = true;
             }
+
             else
             {
                 buttonValider.Enabled = false;
@@ -95,11 +97,49 @@ namespace ConsoleAppValidationDeSaisie
             tbCP.Clear();
             errorProvider.Clear();
         }
-
-        private void LesControle_Load(object sender, EventArgs e)
+        private void focus_nom (object sender, EventArgs e)
         {
-
+            string textnom = tbNom.Text;
+            bool nomIsOk = Verification.ValidNom(textnom);
+            if (nomIsOk == false)
+            {
+                errorProvider.SetError(tbNom, "Le nom ne peut contenir que des lettres.");
+                Verification.ErreurSaisie(tbNom);
+            }
+            
         }
+        private void focus_date(object sender, EventArgs e)
+        {
+            string textdate = tbDate.Text;
+            bool dateIsOk = Verification.ValidDate(textdate);
+            if (dateIsOk == false)
+            {
+                errorProvider.SetError(tbDate, "Erreur dans la date! Doit être au format (jj/mm/AAAA)");
+                Verification.ErreurSaisie(tbDate);
+            }
+        }
+        private void focus_montant(object sender, EventArgs e)
+        {
+            string textmontant = tbMontant.Text;
+            bool montantIsOk = Verification.ValidMontant(textmontant);
+            if (montantIsOk == false)
+            {
+                errorProvider.SetError(tbMontant, "Erreur de saisie.");
+                Verification.ErreurSaisie(tbMontant);
+            }
+        }
+        private void focus_CP(object sender, EventArgs e)
+        {
+            string textcp = tbCP.Text;
+            bool cpIsOk = Verification.ValidCP(textcp);
+            if (cpIsOk == false)
+            {
+                errorProvider.SetError(tbCP, "Erreur de saisie! Doit être au format '*****'");
+                Verification.ErreurSaisie(tbCP);
+            }
+        }
+
+
 
     }
 }

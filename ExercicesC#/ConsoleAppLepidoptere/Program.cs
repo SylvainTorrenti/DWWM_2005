@@ -1,9 +1,5 @@
 ﻿using ClassLibraryLepidoptere;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleAppTestLepidoptere
 {
@@ -14,7 +10,7 @@ namespace ConsoleAppTestLepidoptere
             Lepidoptere l = new Lepidoptere();
             l.SeDeplacer();
             l.SeMetamorphoser();
-            
+
 
             Console.ReadLine();
         }
