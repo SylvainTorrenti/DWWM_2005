@@ -1,0 +1,15 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\obj\Release\WindowsFormsAppValidation.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\obj\Release\ConsoleAppValidationDeSaisie.LesControle.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\obj\Release\WindowsFormsAppValidation.Properties.Resources.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\obj\Release\WindowsFormsAppValidation.csproj.GenerateResource.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\obj\Release\WindowsFormsAppValidation.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\bin\Release\WindowsFormsAppValidation.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\bin\Release\WindowsFormsAppValidation.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\bin\Release\WindowsFormsAppValidation.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\bin\Release\ClassLibraryFacture.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\bin\Release\ClassLibraryVerification.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\bin\Release\ClassLibraryFacture.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\bin\Release\ClassLibraryVerification.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\obj\Release\WindowsFormsAppValidation.csproj.CopyComplete
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\obj\Release\WindowsFormsAppValidation.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppValidation\obj\Release\WindowsFormsAppValidation.pdb

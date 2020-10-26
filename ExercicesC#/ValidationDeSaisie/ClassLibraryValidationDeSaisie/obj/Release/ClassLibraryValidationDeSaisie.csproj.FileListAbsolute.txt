@@ -1,6 +1,0 @@
-C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ClassLibraryValidationDeSaisie\bin\Release\ClassLibraryValidationDeSaisie.dll
-C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ClassLibraryValidationDeSaisie\bin\Release\ClassLibraryValidationDeSaisie.pdb
-C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ClassLibraryValidationDeSaisie\obj\Release\ClassLibraryValidationDeSaisie.csprojAssemblyReference.cache
-C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ClassLibraryValidationDeSaisie\obj\Release\ClassLibraryValidationDeSaisie.csproj.CoreCompileInputs.cache
-C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ClassLibraryValidationDeSaisie\obj\Release\ClassLibraryValidationDeSaisie.dll
-C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ClassLibraryValidationDeSaisie\obj\Release\ClassLibraryValidationDeSaisie.pdb

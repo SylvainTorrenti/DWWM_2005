@@ -1,0 +1,10 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Calculatrice\bin\Release\Calculatrice.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Calculatrice\bin\Release\Calculatrice.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Calculatrice\bin\Release\Calculatrice.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Calculatrice\obj\Release\Calculatrice.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Calculatrice\obj\Release\Calculatrice.Additionneur.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Calculatrice\obj\Release\Calculatrice.Properties.Resources.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Calculatrice\obj\Release\Calculatrice.csproj.GenerateResource.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Calculatrice\obj\Release\Calculatrice.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Calculatrice\obj\Release\Calculatrice.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\Calculatrice\obj\Release\Calculatrice.pdb

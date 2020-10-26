@@ -1,6 +1,0 @@
-C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ClassLibraryFacture\bin\Debug\ClassLibraryFacture.dll
-C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ClassLibraryFacture\bin\Debug\ClassLibraryFacture.pdb
-C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ClassLibraryFacture\obj\Debug\ClassLibraryFacture.csprojAssemblyReference.cache
-C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ClassLibraryFacture\obj\Debug\ClassLibraryFacture.csproj.CoreCompileInputs.cache
-C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ClassLibraryFacture\obj\Debug\ClassLibraryFacture.dll
-C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ValidationDeSaisie\ClassLibraryFacture\obj\Debug\ClassLibraryFacture.pdb
