@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryVerification\ClassLibraryVerification.csproj">
+      <Project>{5e77cf21-c849-47a0-8fa0-2ce23043a32d}</Project>
+      <Name>ClassLibraryVerification</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

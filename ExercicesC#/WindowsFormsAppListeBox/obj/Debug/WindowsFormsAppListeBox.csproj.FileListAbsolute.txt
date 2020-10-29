@@ -8,3 +8,6 @@ C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppLi
 C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\obj\Debug\WindowsFormsAppListeBox.csproj.CoreCompileInputs.cache
 C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\obj\Debug\WindowsFormsAppListeBox.exe
 C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\obj\Debug\WindowsFormsAppListeBox.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\bin\Debug\ClassLibraryVerification.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\bin\Debug\ClassLibraryVerification.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppListeBox\obj\Debug\WindowsFormsAppListeBox.csproj.CopyComplete

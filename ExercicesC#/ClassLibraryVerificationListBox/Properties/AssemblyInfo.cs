@@ -1,14 +1,15 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // Les informations générales relatives à un assembly dépendent de
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("WindowsFormsAppListeBox")]
+[assembly: AssemblyTitle("ClassLibraryVerificationListBox")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WindowsFormsAppListeBox")]
+[assembly: AssemblyProduct("ClassLibraryVerificationListBox")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
-[assembly: Guid("1b53d397-8ddb-440e-8e9d-11bebe642510")]
+[assembly: Guid("62cd0cff-ce21-48bd-b781-ef686f19617e")]
 
 // Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 //

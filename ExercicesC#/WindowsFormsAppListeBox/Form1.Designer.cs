@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lbNom = new System.Windows.Forms.ListBox();
             this.tbInput = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,6 +45,12 @@
             this.tbSI = new System.Windows.Forms.TextBox();
             this.tbText = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.epInput = new System.Windows.Forms.ErrorProvider(this.components);
+            this.epNom = new System.Windows.Forms.ErrorProvider(this.components);
+            this.epSI = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.epInput)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epNom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epSI)).BeginInit();
             this.SuspendLayout();
             // 
             // lbNom
@@ -53,6 +60,7 @@
             this.lbNom.Name = "lbNom";
             this.lbNom.Size = new System.Drawing.Size(155, 173);
             this.lbNom.TabIndex = 0;
+            this.lbNom.SelectedIndexChanged += new System.EventHandler(this.lbNom_SelectedIndexChanged);
             // 
             // tbInput
             // 
@@ -60,6 +68,7 @@
             this.tbInput.Name = "tbInput";
             this.tbInput.Size = new System.Drawing.Size(155, 20);
             this.tbInput.TabIndex = 1;
+            this.tbInput.TextChanged += new System.EventHandler(this.tbInput_TextChanged);
             // 
             // label1
             // 
@@ -68,16 +77,18 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(158, 23);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Nouvel Element";
+            this.label1.Text = "Mot";
             // 
             // bAjouter
             // 
+            this.bAjouter.Enabled = false;
             this.bAjouter.Location = new System.Drawing.Point(33, 138);
             this.bAjouter.Name = "bAjouter";
             this.bAjouter.Size = new System.Drawing.Size(155, 40);
             this.bAjouter.TabIndex = 3;
             this.bAjouter.Text = "Ajouter";
             this.bAjouter.UseVisualStyleBackColor = true;
+            this.bAjouter.Click += new System.EventHandler(this.bAjouter_Click);
             // 
             // label2
             // 
@@ -91,28 +102,34 @@
             // 
             // tbIndex
             // 
+            this.tbIndex.Enabled = false;
             this.tbIndex.Location = new System.Drawing.Point(355, 80);
             this.tbIndex.Name = "tbIndex";
             this.tbIndex.Size = new System.Drawing.Size(29, 20);
             this.tbIndex.TabIndex = 5;
+            this.tbIndex.TextChanged += new System.EventHandler(this.tbIndex_TextChanged);
             // 
             // bSelect
             // 
+            this.bSelect.Enabled = false;
             this.bSelect.Location = new System.Drawing.Point(400, 77);
             this.bSelect.Name = "bSelect";
             this.bSelect.Size = new System.Drawing.Size(75, 23);
             this.bSelect.TabIndex = 6;
             this.bSelect.Text = "Selectionner";
             this.bSelect.UseVisualStyleBackColor = true;
+            this.bSelect.Click += new System.EventHandler(this.bSelect_Click);
             // 
             // bEffacer
             // 
+            this.bEffacer.Enabled = false;
             this.bEffacer.Location = new System.Drawing.Point(400, 121);
             this.bEffacer.Name = "bEffacer";
             this.bEffacer.Size = new System.Drawing.Size(75, 23);
             this.bEffacer.TabIndex = 7;
             this.bEffacer.Text = "Effacer";
             this.bEffacer.UseVisualStyleBackColor = true;
+            this.bEffacer.Click += new System.EventHandler(this.bEffacer_Click);
             // 
             // Propriétés
             // 
@@ -185,6 +202,18 @@
             this.label6.TabIndex = 15;
             this.label6.Text = "LstListe";
             // 
+            // epInput
+            // 
+            this.epInput.ContainerControl = this;
+            // 
+            // epNom
+            // 
+            this.epNom.ContainerControl = this;
+            // 
+            // epSI
+            // 
+            this.epSI.ContainerControl = this;
+            // 
             // ListeBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -210,6 +239,9 @@
             this.Name = "ListeBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Liste Box";
+            ((System.ComponentModel.ISupportInitialize)(this.epInput)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epNom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epSI)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -233,6 +265,9 @@
         private System.Windows.Forms.TextBox tbSI;
         private System.Windows.Forms.TextBox tbText;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ErrorProvider epInput;
+        private System.Windows.Forms.ErrorProvider epNom;
+        private System.Windows.Forms.ErrorProvider epSI;
     }
 }
 

@@ -8,8 +8,9 @@ namespace ClassLibraryVerification
     public static class Verification
     {
 
-        private const string regexNom = @"^[A-Za-z]+$";
+        private const string regexNom = @"^[A-Za-z]{2,}|[-]{1}[A-Za-z]{2,}$";
         private const string regexCp = @"^(?:[0-8]\d|[0-8])\d{3}$";
+        private const string regexNombre = @"^[1-9]*[0-9]*$";
 
 
 
@@ -67,6 +68,10 @@ namespace ClassLibraryVerification
         {
             textbox.Focus();
             SystemSounds.Exclamation.Play();
+        }
+        public static bool ValidNombre(string _nombre)
+        {
+            return int.TryParse(_nombre, out int result) && Regex.IsMatch(_nombre, regexNombre);
         }
 
     }

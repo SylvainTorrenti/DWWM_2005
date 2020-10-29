@@ -97,7 +97,7 @@ namespace ConsoleAppValidationDeSaisie
             tbCP.Clear();
             errorProvider.Clear();
         }
-        private void focus_nom (object sender, EventArgs e)
+        private void focus_nom(object sender, EventArgs e)
         {
             string textnom = tbNom.Text;
             bool nomIsOk = Verification.ValidNom(textnom);
@@ -106,7 +106,7 @@ namespace ConsoleAppValidationDeSaisie
                 errorProvider.SetError(tbNom, "Le nom ne peut contenir que des lettres.");
                 Verification.ErreurSaisie(tbNom);
             }
-            
+
         }
         private void focus_date(object sender, EventArgs e)
         {
