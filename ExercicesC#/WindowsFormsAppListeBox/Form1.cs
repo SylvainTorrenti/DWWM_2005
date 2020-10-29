@@ -64,8 +64,7 @@ namespace WindowsFormsAppListeBox
             int nombre = int.Parse(tbIndex.Text);
             lbNom.SetSelected(nombre - 1, true);
             tbSI.Text = Convert.ToString(nombre);
-            tbText.Text = lbNom.SelectedItem.ToString();
-            bSelect.Enabled = false;
+            tbText.Text = lbNom.SelectedItem.ToString();            
         }
 
         private void tbIndex_TextChanged(object sender, EventArgs e)
@@ -79,10 +78,12 @@ namespace WindowsFormsAppListeBox
                 if (nombre > lbNom.Items.Count)
                 {
                     epSI.SetError(tbIndex, "Il n'y a pas autant de références.");
+                    bSelect.Enabled = false;
                 }
                 else if (nombre == 0)
                 {
                     epSI.SetError(tbIndex, "0 n'est pas valide.");
+                    bSelect.Enabled = false;
                 }
                 else
                 {
