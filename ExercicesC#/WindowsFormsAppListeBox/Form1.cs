@@ -43,28 +43,28 @@ namespace WindowsFormsAppListeBox
         private void tbInput_TextChanged(object sender, EventArgs e)
         {
             bool nomValide = Verification.ValidNom(tbInput.Text);
-            bool doublon = lbNom.Items.Contains(tbInput.Text);           
+            bool doublon = lbNom.Items.Contains(tbInput.Text);
             if (nomValide == true & doublon == false)
             {
                 bAjouter.Enabled = true;
-                epInput.Clear();               
+                epInput.Clear();
             }
             else if (nomValide == false)
             {
                 epInput.SetError(tbInput, "Le nom n'est pas valide.");
                 bAjouter.Enabled = false;
-            }            
+            }
             else
             {
                 epInput.SetError(tbInput, "Le nom est en double.");
-            }           
+            }
         }
         private void bSelect_Click(object sender, EventArgs e)
         {
             int nombre = int.Parse(tbIndex.Text);
             lbNom.SetSelected(nombre - 1, true);
             tbSI.Text = Convert.ToString(nombre);
-            tbText.Text = lbNom.SelectedItem.ToString();            
+            tbText.Text = lbNom.SelectedItem.ToString();
         }
 
         private void tbIndex_TextChanged(object sender, EventArgs e)
@@ -89,31 +89,31 @@ namespace WindowsFormsAppListeBox
                 {
                     bSelect.Enabled = true;
                     epSI.Clear();
-                    
+
                 }
             }
             else
             {
                 epSI.SetError(tbIndex, "Les caractére speciaux/lettres ne sont pas autorisés.");
             }
-            
+
         }
         private void lbNom_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (lbNom.SelectedIndex == -1)
             {
-                epNom.SetError(lbNom, "L'index n'est pas bon");
-            }           
+                epNom.SetError(lbNom, "Il ne faut pas cliquer dans le vide");
+            }
             else
             {
                 tbSI.Text = Convert.ToString(lbNom.SelectedIndex + 1);
                 tbText.Text = lbNom.SelectedItem.ToString();
-                epNom.Clear();               
+                epNom.Clear();
             }
-            
+
         }
 
-        
+
     }
 
 }

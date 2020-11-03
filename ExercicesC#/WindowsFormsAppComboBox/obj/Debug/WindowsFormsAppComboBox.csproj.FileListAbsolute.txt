@@ -1,0 +1,13 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\bin\Debug\WindowsFormsAppComboBox.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\bin\Debug\WindowsFormsAppComboBox.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\bin\Debug\WindowsFormsAppComboBox.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\obj\Debug\WindowsFormsAppComboBox.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\obj\Debug\WindowsFormsAppComboBox.LesListes.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\obj\Debug\WindowsFormsAppComboBox.Properties.Resources.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\obj\Debug\WindowsFormsAppComboBox.csproj.GenerateResource.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\obj\Debug\WindowsFormsAppComboBox.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\obj\Debug\WindowsFormsAppComboBox.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\obj\Debug\WindowsFormsAppComboBox.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\bin\Debug\ClassLibraryVerification.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\bin\Debug\ClassLibraryVerification.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppComboBox\obj\Debug\WindowsFormsAppComboBox.csproj.CopyComplete
