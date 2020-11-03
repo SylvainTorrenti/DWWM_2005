@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibraryVerification;
+using System;
 using System.Windows.Forms;
 
 namespace WindowsFormsAppComboBox
@@ -90,11 +91,24 @@ namespace WindowsFormsAppComboBox
         /// <param name="e"></param>
         private void bGauche_Click(object sender, EventArgs e)
         {
-
+            int index = listBox1.SelectedIndex;
             cbListe.Items.Add(listBox1.SelectedItem);
             listBox1.Items.Remove(listBox1.SelectedItem);
             bToutDroite.Enabled = true;
-            listBox1.SelectedIndex = listBox1.Items.Count - 1;
+            if (index < listBox1.Items.Count)
+            {
+                listBox1.SetSelected(index, true);
+
+            }
+            else if (index == listBox1.Items.Count && index > 0)
+            {
+                listBox1.SetSelected(index - 1, true);
+            }
+            else
+            {
+                bGauche.Enabled = false;
+                bToutGauche.Enabled = false;
+            }
             ep1.Clear();
         }
         /// <summary>
@@ -106,17 +120,26 @@ namespace WindowsFormsAppComboBox
         {
             if (listBox1.SelectedIndex == -1)
             {
-                bBas.Enabled = false;
+                bToutGauche.Enabled = false;
                 bHaut.Enabled = false;
-                bGauche.Enabled = false;
-
+                bBas.Enabled = false;
             }
             else
             {
+                bGauche.Enabled = true; 
                 bHaut.Enabled = true;
                 bBas.Enabled = true;
-                bGauche.Enabled = true;
+                bToutGauche.Enabled = true;
             }
+            if (listBox1.SelectedIndex == 0)
+            {
+                bHaut.Enabled = false;
+            }
+            if (listBox1.SelectedIndex == listBox1.Items.Count - 1)
+            {
+                bBas.Enabled = false;
+            }
+
             ep1.Clear();
 
         }
@@ -158,12 +181,12 @@ namespace WindowsFormsAppComboBox
                 listBox1.Items.Insert(pays + 1, pTemp);
                 listBox1.SelectedIndex = pays + 1;
             }
-            else if(listBox1.SelectedIndex == listBox1.Items.Count -1)
+            else if (listBox1.SelectedIndex == listBox1.Items.Count - 1)
             {
                 bBas.Enabled = false;
             }
 
-            
+
             ep1.Clear();
 
         }
@@ -177,6 +200,7 @@ namespace WindowsFormsAppComboBox
             ep1.Clear();
             string text = cbListe.Text;
             int taille = text.Length;
+            bool validMot = Verification.ValidNom(cbListe.Text);
             if (taille >= 2)
             {
                 bool doublon1 = cbListe.Items.Contains(cbListe.Text);
@@ -189,6 +213,10 @@ namespace WindowsFormsAppComboBox
                 {
                     ep1.SetError(cbListe, "Il y a un doublon dans la box cible");
                 }
+                else if (validMot == false)
+                {
+                    ep1.SetError(cbListe, "Le mot n'est pas valide");
+                }
                 else
                 {
                     cbListe.Items.Add(cbListe.Text);
@@ -198,7 +226,7 @@ namespace WindowsFormsAppComboBox
             }
             else
             {
-                ep1.SetError(cbListe, "Il doit y avoir au moins 2 caractéres");
+                ep1.Clear();
             }
 
         }
@@ -211,7 +239,7 @@ namespace WindowsFormsAppComboBox
         {
             string text = cbListe.Text;
             int taille = text.Length;
-            if (taille <= 1)
+            if (taille <= 1 & taille > 0)
             {
                 ep1.SetError(cbListe, "Il doit y avoir au moins 2 caractéres");
             }
@@ -228,20 +256,6 @@ namespace WindowsFormsAppComboBox
         private void cbListe_Leave(object sender, EventArgs e)
         {
             ep1.Clear();
-        }
-        /// <summary>
-        /// When you  enter in combo text
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void cbListe_Enter(object sender, EventArgs e)
-        {
-            string text = cbListe.Text;
-            int taille = text.Length;
-            if (taille <= 1)
-            {
-                ep1.SetError(cbListe, "Il doit y avoir au moins 2 caractéres");
-            }
         }
         /// <summary>
         /// When you select an item in list

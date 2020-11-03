@@ -54,7 +54,6 @@
             this.cbListe.DropDown += new System.EventHandler(this.cbListe_DropDown);
             this.cbListe.SelectedIndexChanged += new System.EventHandler(this.cbListe_SelectedIndexChanged);
             this.cbListe.TextChanged += new System.EventHandler(this.cbListe_TextChanged);
-            this.cbListe.Enter += new System.EventHandler(this.cbListe_Enter);
             this.cbListe.Leave += new System.EventHandler(this.cbListe_Leave);
             // 
             // label1
