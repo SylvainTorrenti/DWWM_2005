@@ -25,6 +25,7 @@ namespace WindowsFormsAppComboBox
         /// <param name="e"></param>
         private void bDroite_Click(object sender, EventArgs e)
         {
+            
             if (cbListe.SelectedIndex == -1)
             {
                 listBox1.Items.Add(cbListe.Text);
@@ -33,7 +34,6 @@ namespace WindowsFormsAppComboBox
                 bDroite.Enabled = false;
 
             }
-
             else
             {
                 listBox1.Items.Add(cbListe.SelectedItem);
@@ -44,6 +44,10 @@ namespace WindowsFormsAppComboBox
             }
             bDroite.Enabled = false;
             bToutGauche.Enabled = true;
+            if (cbListe.Items.Count == 0)
+            {
+                bToutDroite.Enabled = false;
+            }
             ep1.Clear();
         }
 
@@ -220,6 +224,7 @@ namespace WindowsFormsAppComboBox
                 else
                 {
                     cbListe.Items.Add(cbListe.Text);
+                    bToutDroite.Enabled = true;
                 }
 
 
