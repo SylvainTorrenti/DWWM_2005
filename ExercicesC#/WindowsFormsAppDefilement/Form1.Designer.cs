@@ -194,7 +194,6 @@
             this.Controls.Add(this.hSVert);
             this.Controls.Add(this.hSBleu);
             this.Controls.Add(this.hSRouge);
-            this.Enabled = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Defilement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

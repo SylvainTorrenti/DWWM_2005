@@ -17,7 +17,7 @@ namespace WindowsFormsAppDefilement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Defilement());
+            Application.Run(new Defilement(Color.Blue));
         }
     }
 }

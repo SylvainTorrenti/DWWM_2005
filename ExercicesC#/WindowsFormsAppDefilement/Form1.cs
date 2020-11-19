@@ -46,14 +46,10 @@ namespace WindowsFormsAppDefilement
         }
         private void defilement_Load(object sender, EventArgs e)
         {
-            tbBleu.BackColor = System.Drawing.Color.White;
-            tbRouge.BackColor = System.Drawing.Color.White;
-            tbVert.BackColor = System.Drawing.Color.White;
             tbFinale.BackColor = couleur;
         }
         private void UPRouge_ValueChanged(object sender, EventArgs e)
         {
-            hSRouge.Value = (int)UPRouge.Value;
             couleur = Color.FromArgb((int)UPRouge.Value, couleur.G, couleur.B);
             MettreAJourLIhm();
 
@@ -61,14 +57,12 @@ namespace WindowsFormsAppDefilement
 
         private void UPVert_ValueChanged(object sender, EventArgs e)
         {           
-            hSVert.Value = (int)UPVert.Value;
             couleur = Color.FromArgb(couleur.R, (int)UPVert.Value, couleur.B);
             MettreAJourLIhm();
         }
 
         private void UPBleu_ValueChanged(object sender, EventArgs e)
         {
-            hSBleu.Value = (int)UPBleu.Value;
             couleur = Color.FromArgb(couleur.R, couleur.G, (int)UPBleu.Value);
             MettreAJourLIhm();
         }
