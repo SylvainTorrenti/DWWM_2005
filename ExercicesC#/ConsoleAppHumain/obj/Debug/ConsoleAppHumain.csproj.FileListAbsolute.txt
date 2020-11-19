@@ -1,0 +1,10 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppHumain\bin\Debug\ConsoleAppHumain.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppHumain\bin\Debug\ConsoleAppHumain.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppHumain\bin\Debug\ConsoleAppHumain.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppHumain\bin\Debug\ClassLibraryTemp.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppHumain\bin\Debug\ClassLibraryTemp.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppHumain\obj\Debug\ConsoleAppHumain.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppHumain\obj\Debug\ConsoleAppHumain.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppHumain\obj\Debug\ConsoleAppHumain.csproj.CopyComplete
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppHumain\obj\Debug\ConsoleAppHumain.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppHumain\obj\Debug\ConsoleAppHumain.pdb

@@ -1,0 +1,6 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryTemp\bin\Debug\ClassLibraryTemp.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryTemp\bin\Debug\ClassLibraryTemp.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryTemp\obj\Debug\ClassLibraryTemp.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryTemp\obj\Debug\ClassLibraryTemp.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryTemp\obj\Debug\ClassLibraryTemp.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryTemp\obj\Debug\ClassLibraryTemp.pdb

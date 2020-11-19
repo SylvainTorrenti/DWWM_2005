@@ -1,0 +1,10 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppMeteo\bin\Debug\ConsoleAppMeteo.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppMeteo\bin\Debug\ConsoleAppMeteo.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppMeteo\bin\Debug\ConsoleAppMeteo.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppMeteo\bin\Debug\ClassLibraryJardin.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppMeteo\bin\Debug\ClassLibraryJardin.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppMeteo\obj\Debug\ConsoleAppMeteo.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppMeteo\obj\Debug\ConsoleAppMeteo.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppMeteo\obj\Debug\ConsoleAppMeteo.csproj.CopyComplete
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppMeteo\obj\Debug\ConsoleAppMeteo.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppMeteo\obj\Debug\ConsoleAppMeteo.pdb
