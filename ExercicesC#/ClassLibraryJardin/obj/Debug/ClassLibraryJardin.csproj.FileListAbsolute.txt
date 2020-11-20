@@ -3,3 +3,4 @@ C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryJardi
 C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryJardin\obj\Debug\ClassLibraryJardin.csproj.CoreCompileInputs.cache
 C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryJardin\obj\Debug\ClassLibraryJardin.dll
 C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryJardin\obj\Debug\ClassLibraryJardin.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryJardin\obj\Debug\ClassLibraryJardin.csprojAssemblyReference.cache

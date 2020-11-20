@@ -20,6 +20,11 @@ namespace ClassLibraryJardin
         }
         #endregion
         #region diminuer
+        public double Temp
+        {
+            get => temp;
+            //set => temp = value;
+        }
         public void Diminuer()
         {
             temp--;
