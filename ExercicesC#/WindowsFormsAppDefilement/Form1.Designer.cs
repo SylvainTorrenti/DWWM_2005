@@ -198,7 +198,6 @@
             this.Name = "Defilement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Defilement";
-            this.Load += new System.EventHandler(this.defilement_Load);
             ((System.ComponentModel.ISupportInitialize)(this.UPRouge)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UPVert)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UPBleu)).EndInit();

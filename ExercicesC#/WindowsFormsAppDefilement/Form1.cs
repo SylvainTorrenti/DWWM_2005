@@ -41,11 +41,6 @@ namespace WindowsFormsAppDefilement
             UPBleu.Value = couleur.B;
             tbBleu.BackColor = Color.FromArgb(0, 0, couleur.B);
 
-
-            tbFinale.BackColor = couleur;
-        }
-        private void defilement_Load(object sender, EventArgs e)
-        {
             tbFinale.BackColor = couleur;
         }
         private void UPRouge_ValueChanged(object sender, EventArgs e)
@@ -69,17 +64,20 @@ namespace WindowsFormsAppDefilement
 
         private void hSRouge_Scroll(object sender, ScrollEventArgs e)
         {
-            UPRouge.Value = hSRouge.Value;           
+            couleur = Color.FromArgb(hSRouge.Value, couleur.G, couleur.B);
+            MettreAJourLIhm();
         }
 
         private void hSVert_Scroll(object sender, ScrollEventArgs e)
         {
-            UPVert.Value = hSVert.Value;
+            couleur = Color.FromArgb(couleur.R, hSVert.Value, couleur.B);
+            MettreAJourLIhm();
         }
 
         private void hSBleu_Scroll(object sender, ScrollEventArgs e)
         {
-            UPBleu.Value = hSBleu.Value;
+            couleur = Color.FromArgb(couleur.R, couleur.G, hSBleu.Value);
+            MettreAJourLIhm();
         }
 
     }
