@@ -1,0 +1,6 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryEmprunt\bin\Debug\ClassLibraryEmprunt.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryEmprunt\bin\Debug\ClassLibraryEmprunt.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryEmprunt\obj\Debug\ClassLibraryEmprunt.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryEmprunt\obj\Debug\ClassLibraryEmprunt.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryEmprunt\obj\Debug\ClassLibraryEmprunt.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ClassLibraryEmprunt\obj\Debug\ClassLibraryEmprunt.pdb

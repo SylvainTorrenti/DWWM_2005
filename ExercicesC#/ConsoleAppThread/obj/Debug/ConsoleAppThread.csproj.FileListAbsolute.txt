@@ -1,0 +1,7 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppThread\bin\Debug\ConsoleAppThread.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppThread\bin\Debug\ConsoleAppThread.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppThread\bin\Debug\ConsoleAppThread.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppThread\obj\Debug\ConsoleAppThread.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppThread\obj\Debug\ConsoleAppThread.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppThread\obj\Debug\ConsoleAppThread.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\ConsoleAppThread\obj\Debug\ConsoleAppThread.pdb

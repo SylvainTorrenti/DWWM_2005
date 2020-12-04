@@ -25,7 +25,7 @@ namespace WindowsFormsAppComboBox
         /// <param name="e"></param>
         private void bDroite_Click(object sender, EventArgs e)
         {
-            
+
             if (cbListe.SelectedIndex == -1)
             {
                 listBox1.Items.Add(cbListe.Text);
@@ -130,7 +130,7 @@ namespace WindowsFormsAppComboBox
             }
             else
             {
-                bGauche.Enabled = true; 
+                bGauche.Enabled = true;
                 bHaut.Enabled = true;
                 bBas.Enabled = true;
                 bToutGauche.Enabled = true;

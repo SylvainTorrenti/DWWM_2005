@@ -1,9 +1,5 @@
 ﻿using ClassLibraryTemp;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleAppHumain
 {
@@ -20,7 +16,7 @@ namespace ConsoleAppHumain
         }
         private static void AllerChezLeDoc(Humain sender)
         {
-            Console.WriteLine("Il faut aller chez le docteur! Car la temperature est de " + sender.Temp + "°C!");            
-        }       
+            Console.WriteLine("Il faut aller chez le docteur! Car la temperature est de " + sender.Temp + "°C!");
+        }
     }
 }

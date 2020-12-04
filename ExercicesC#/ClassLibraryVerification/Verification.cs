@@ -8,11 +8,11 @@ namespace ClassLibraryVerification
     public static class Verification
     {
 
-        private const string regexNom = @"^[A-Za-z]{2,}|[-]{1}[A-Za-z]{2,}$";
+        private const string regexNom = @"^[A-Z][\p{L}-]*$";
         private const string regexCp = @"^(?:[0-8]\d|[0-8])\d{3}$";
         private const string regexNombre = @"^[1-9]*[0-9]*$";
         private const string regexMaj = @"^(?:[A-Z])[a-z]{2,}$";
-
+        private const string regexEmprunt = @"^[1-9]{1}[0-9]{1,}$";
 
         /// <summary>
         /// method for checking date
@@ -82,15 +82,6 @@ namespace ClassLibraryVerification
 
         }
         /// <summary>
-        /// method for do song when error pop
-        /// </summary>
-        /// <param name="textbox"></param>
-        public static void ErreurSaisie(TextBox textbox)
-        {
-            textbox.Focus();
-            SystemSounds.Exclamation.Play();
-        }
-        /// <summary>
         /// method for checking number
         /// </summary>
         /// <param name="_nombre"></param>
@@ -100,7 +91,22 @@ namespace ClassLibraryVerification
 
             return int.TryParse(_nombre, out int result) && Regex.IsMatch(_nombre, regexNombre);
         }
+
+        public static bool ValidEmprunt(string _emprunt)
+        {
+            return int.TryParse(_emprunt, out int result) && Regex.IsMatch(_emprunt, regexEmprunt);
+        }
+
+        /// <summary>
+        /// method for do song when error pop
+        /// </summary>
+        /// <param name="textbox"></param>
+        public static void ErreurSaisie(TextBox textbox)
+        {
+            textbox.Focus();
+            SystemSounds.Exclamation.Play();
+        }
     }
-
-
 }
+
+

@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsAppDefilement
@@ -14,7 +8,7 @@ namespace WindowsFormsAppDefilement
     {
 
         private System.Drawing.Color couleur;
- 
+
         public Defilement()
         {
             InitializeComponent();
@@ -26,7 +20,7 @@ namespace WindowsFormsAppDefilement
             InitializeComponent();
             couleur = _couleur;
             MettreAJourLIhm();
-        }       
+        }
         public void MettreAJourLIhm()
         {
             hSRouge.Value = couleur.R;
@@ -51,7 +45,7 @@ namespace WindowsFormsAppDefilement
         }
 
         private void UPVert_ValueChanged(object sender, EventArgs e)
-        {           
+        {
             couleur = Color.FromArgb(couleur.R, (int)UPVert.Value, couleur.B);
             MettreAJourLIhm();
         }

@@ -1,0 +1,15 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\bin\Debug\WindowsFormsAppEmprunt.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\bin\Debug\WindowsFormsAppEmprunt.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\bin\Debug\WindowsFormsAppEmprunt.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\obj\Debug\WindowsFormsAppEmprunt.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\obj\Debug\WindowsFormsAppEmprunt.Emprunt.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\obj\Debug\WindowsFormsAppEmprunt.Properties.Resources.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\obj\Debug\WindowsFormsAppEmprunt.csproj.GenerateResource.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\obj\Debug\WindowsFormsAppEmprunt.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\obj\Debug\WindowsFormsAppEmprunt.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\obj\Debug\WindowsFormsAppEmprunt.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\bin\Debug\ClassLibraryEmprunt.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\bin\Debug\ClassLibraryVerification.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\bin\Debug\ClassLibraryEmprunt.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\bin\Debug\ClassLibraryVerification.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ExercicesC#\WindowsFormsAppEmprunt\obj\Debug\WindowsFormsAppEmprunt.csproj.CopyComplete
