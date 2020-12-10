@@ -37,7 +37,7 @@ namespace WindowsFormsAppLigne
 
                 if (sqlReader.HasRows == false)
                 {
-                    MessageBox.Show("il n'y a pas autant de fournisseur");
+                    MessageBox.Show("La boite ne marche pas autant!");
                 }
 
                 while (sqlReader.Read())
