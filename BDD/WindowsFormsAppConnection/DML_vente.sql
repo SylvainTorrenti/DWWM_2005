@@ -1,0 +1,4 @@
+﻿use Papyrus;
+INSERT INTO vente VALUES (1,1)
+INSERT INTO vente VALUES (3,2)
+INSERT INTO vente VALUES (2,3)
