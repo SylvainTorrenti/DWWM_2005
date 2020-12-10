@@ -1,0 +1,10 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppConnection\bin\Debug\WindowsFormsAppConnection.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppConnection\bin\Debug\WindowsFormsAppConnection.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppConnection\bin\Debug\WindowsFormsAppConnection.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppConnection\obj\Debug\WindowsFormsAppConnection.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppConnection\obj\Debug\WindowsFormsAppConnection.Properties.Resources.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppConnection\obj\Debug\WindowsFormsAppConnection.csproj.GenerateResource.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppConnection\obj\Debug\WindowsFormsAppConnection.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppConnection\obj\Debug\WindowsFormsAppConnection.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppConnection\obj\Debug\WindowsFormsAppConnection.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppConnection\obj\Debug\WindowsFormsAppConnection.Connexion.resources

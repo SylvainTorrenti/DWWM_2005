@@ -1,0 +1,11 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppLigne\bin\Debug\WindowsFormsAppLigne.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppLigne\bin\Debug\WindowsFormsAppLigne.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppLigne\bin\Debug\WindowsFormsAppLigne.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppLigne\obj\Debug\WindowsFormsAppLigne.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppLigne\obj\Debug\WindowsFormsAppLigne.Properties.Resources.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppLigne\obj\Debug\WindowsFormsAppLigne.csproj.GenerateResource.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppLigne\obj\Debug\WindowsFormsAppLigne.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppLigne\obj\Debug\WindowsFormsAppLigne.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppLigne\obj\Debug\WindowsFormsAppLigne.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppLigne\obj\Debug\WindowsFormsAppLigne.fournisseur.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppLigne\obj\Debug\WindowsFormsAppLigne.Ligne.resources
