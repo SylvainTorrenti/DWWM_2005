@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppConnection",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppLigne", "WindowsFormsAppLigne\WindowsFormsAppLigne.csproj", "{908B10CB-C29A-489E-9400-0E59D916B9FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppRechercheLigne", "WindowsFormsAppRechercheLigne\WindowsFormsAppRechercheLigne.csproj", "{F3E35A09-AF8E-415F-98D3-D80CA6E5BAC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{908B10CB-C29A-489E-9400-0E59D916B9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{908B10CB-C29A-489E-9400-0E59D916B9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{908B10CB-C29A-489E-9400-0E59D916B9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E35A09-AF8E-415F-98D3-D80CA6E5BAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E35A09-AF8E-415F-98D3-D80CA6E5BAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E35A09-AF8E-415F-98D3-D80CA6E5BAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E35A09-AF8E-415F-98D3-D80CA6E5BAC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
