@@ -5,7 +5,7 @@ USE Papyrus;
 
 create table fournisseur
 (
-fournisseur_id char(2) primary key,
+fournisseur_id int primary key,
 fournisseur_nom varchar(50),
 fournisseur_adresse varchar(100),
 fournisseur_cp char(5),
@@ -16,13 +16,13 @@ fournisseur_satisfaction tinyint,
 
 create table produits
 (
-produits_id char(2) primary key,
+produits_id int primary key,
 produits_label varchar(50),
 produits_stock_reel int,
 produits_stock_critique int,
 produits_qt_annuel int,
 produits_mesure varchar(4),
-fournisseur_id char(2),
+fournisseur_id int,
 CONSTRAINT fk_fournisseur_id FOREIGN KEY (fournisseur_id)
         REFERENCES fournisseur (fournisseur_id),
 ) ;
@@ -31,15 +31,15 @@ CONSTRAINT fk_fournisseur_id FOREIGN KEY (fournisseur_id)
 
 create table commande
 (
-commande_id char(2) primary key,
+commande_id int primary key,
 commande_date DATE,
 commande_commentaire varchar(100),
 );
 
 create table vente
 (
-fournisseur_id char(2),
-produits_id char(2),
+fournisseur_id int,
+produits_id int,
 CONSTRAINT pk_fournisseur_produits PRIMARY KEY (fournisseur_id , produits_id),
 CONSTRAINT fk_fournisseur FOREIGN KEY (fournisseur_id)
         REFERENCES fournisseur (fournisseur_id),
@@ -49,8 +49,8 @@ CONSTRAINT fk_produits FOREIGN KEY (produits_id)
 
 create table ordre_commande
 (
-produits_id char(2),
-commande_id char(2),
+produits_id int,
+commande_id int,
 ordre_commande_quantite int,
 ordre_commande_date DATE,
 CONSTRAINT pk_commande_produits PRIMARY KEY (commande_id , produits_id),
@@ -62,8 +62,8 @@ CONSTRAINT fk_produit FOREIGN KEY (produits_id)
 
 create table livraison
 (
-fournisseur_id char(2),
-produits_id char(2),
+fournisseur_id int,
+produits_id int,
 CONSTRAINT pk_livraison PRIMARY KEY (fournisseur_id , produits_id),
 CONSTRAINT fk_fournisseur_livraison FOREIGN KEY (fournisseur_id)
         REFERENCES fournisseur (fournisseur_id),

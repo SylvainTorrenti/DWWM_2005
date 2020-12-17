@@ -31,7 +31,7 @@ namespace WindowsFormsAppRechercheLigne
                     cbFournisseur.Items.Add(sqlRdr["fournisseur_nom"].ToString());
                 }
                 sqlRdr.Close();
-            }                   
+            }
             catch (SqlException se)
             {
                 MessageBox.Show(se.Message);
@@ -78,8 +78,8 @@ namespace WindowsFormsAppRechercheLigne
                     lbFournisseur.Items.Add(sqlRdr.GetDateTime(1).ToString("d"));
                     lbFournisseur.Items.Add(sqlRdr.GetString(2));
                 }
-                   
-                
+
+
 
 
 
@@ -96,7 +96,10 @@ namespace WindowsFormsAppRechercheLigne
             }
         }
 
+        public static void GetEntCom()
+        {
 
+        }
     }
 }
 

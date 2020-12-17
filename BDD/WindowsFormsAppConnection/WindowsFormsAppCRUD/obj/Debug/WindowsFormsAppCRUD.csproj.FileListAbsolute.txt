@@ -1,0 +1,10 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppCRUD\bin\Debug\WindowsFormsAppCRUD.exe.config
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppCRUD\bin\Debug\WindowsFormsAppCRUD.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppCRUD\bin\Debug\WindowsFormsAppCRUD.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppCRUD\obj\Debug\WindowsFormsAppCRUD.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppCRUD\obj\Debug\WindowsFormsAppCRUD.CRUD.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppCRUD\obj\Debug\WindowsFormsAppCRUD.Properties.Resources.resources
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppCRUD\obj\Debug\WindowsFormsAppCRUD.csproj.GenerateResource.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppCRUD\obj\Debug\WindowsFormsAppCRUD.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppCRUD\obj\Debug\WindowsFormsAppCRUD.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\BDD\WindowsFormsAppConnection\WindowsFormsAppCRUD\obj\Debug\WindowsFormsAppCRUD.pdb
