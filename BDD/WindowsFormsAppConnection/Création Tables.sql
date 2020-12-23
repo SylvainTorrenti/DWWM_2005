@@ -5,7 +5,7 @@ USE Papyrus;
 
 create table fournisseur
 (
-fournisseur_id int primary key,
+fournisseur_id int primary key IDENTITY,
 fournisseur_nom varchar(50),
 fournisseur_adresse varchar(100),
 fournisseur_cp char(5),
@@ -16,7 +16,7 @@ fournisseur_satisfaction tinyint,
 
 create table produits
 (
-produits_id int primary key,
+produits_id int primary key IDENTITY,
 produits_label varchar(50),
 produits_stock_reel int,
 produits_stock_critique int,
@@ -31,7 +31,7 @@ CONSTRAINT fk_fournisseur_id FOREIGN KEY (fournisseur_id)
 
 create table commande
 (
-commande_id int primary key,
+commande_id int primary key IDENTITY,
 commande_date DATE,
 commande_commentaire varchar(100),
 );

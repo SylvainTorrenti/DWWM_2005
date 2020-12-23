@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
@@ -17,10 +18,14 @@ namespace WindowsFormsAppCRUD
 
         private void bRecherche_Click(object sender, EventArgs e)
         {
+            sqlConnect = new SqlConnection();
+            ConnectionStringSettings config = ConfigurationManager.ConnectionStrings["BD"];
+            if (config != null)
+            {
+                sqlConnect.ConnectionString = config.ConnectionString;
+            }
             try
             {
-                sqlConnect = new SqlConnection();
-                sqlConnect.ConnectionString = "Data Source=SYLVAIN\\SQLEXPRESS;Initial Catalog=Papyrus;Integrated Security=True";
                 sqlConnect.Open();
                 sqlCommande = new SqlCommand();
                 sqlCommande.Connection = sqlConnect;
@@ -82,8 +87,10 @@ namespace WindowsFormsAppCRUD
 
         private void bCréé_Click(object sender, EventArgs e)
         {
+            lId.Visible = false;
+            tbId.Visible = false;
+            tbId.Clear();
             lNom.Visible = true;
-            lId.Visible = true;
             lFournisseur.Visible = true;
             lCP.Visible = true;
             lContact.Visible = true;
@@ -96,8 +103,6 @@ namespace WindowsFormsAppCRUD
             tbSatisfaction.Clear();
             tbNom.Visible = true;
             tbNom.Clear();
-            tbId.Visible = true;
-            tbId.Clear();
             tbCP.Visible = true;
             tbCP.Clear();
             tbContact.Visible = true;
@@ -115,16 +120,19 @@ namespace WindowsFormsAppCRUD
 
         private void bAjouter_Click(object sender, EventArgs e)
         {
+            sqlConnect = new SqlConnection();
+            ConnectionStringSettings config = ConfigurationManager.ConnectionStrings["BD"];
+            if (config != null)
+            {
+                sqlConnect.ConnectionString = config.ConnectionString;
+            }
             try
             {
-                sqlConnect = new SqlConnection();
-                sqlConnect.ConnectionString = "Data Source=SYLVAIN\\SQLEXPRESS;Initial Catalog=Papyrus;Integrated Security=True";
                 sqlConnect.Open();
                 sqlCommande = new SqlCommand();
                 sqlCommande.Connection = sqlConnect;
 
-                SqlParameter sqlIdFournisseur = new SqlParameter("@fournisseur_id", DbType.Int32);
-                sqlIdFournisseur.Value = tbId.Text;
+
 
                 SqlParameter sqlNomFournisseur = new SqlParameter("@fournisseur_nom", DbType.String);
                 sqlNomFournisseur.Value = tbNom.Text;
@@ -144,7 +152,9 @@ namespace WindowsFormsAppCRUD
                 SqlParameter sqlSatisfactionFournisseur = new SqlParameter("@fournisseur_satisfaction", DbType.String);
                 sqlSatisfactionFournisseur.Value = tbSatisfaction.Text;
 
-                sqlCommande.Parameters.Add(sqlIdFournisseur);
+                SqlParameter fIdOut = new SqlParameter("@idFournisseur", SqlDbType.Int);
+                fIdOut.Direction = ParameterDirection.Output;
+
                 sqlCommande.Parameters.Add(sqlNomFournisseur);
                 sqlCommande.Parameters.Add(sqlAdresseFournisseur);
                 sqlCommande.Parameters.Add(sqlCpFournisseur);
@@ -152,11 +162,7 @@ namespace WindowsFormsAppCRUD
                 sqlCommande.Parameters.Add(sqlContactFournisseur);
                 sqlCommande.Parameters.Add(sqlSatisfactionFournisseur);
 
-                if (tbId.Text == "")
-                {
-                    MessageBox.Show("Il faut entré un ID.");
-                }
-                else if (tbNom.Text == "")
+                if (tbNom.Text == "")
                 {
                     MessageBox.Show("Il faut entré un nom.");
                 }
@@ -182,20 +188,24 @@ namespace WindowsFormsAppCRUD
                 }
                 else
                 {
-                    string strSql = "Insert into fournisseur(fournisseur_id,fournisseur_nom,fournisseur_adresse,fournisseur_cp,fournisseur_ville,fournisseur_contact,fournisseur_satisfaction) VALUES(@fournisseur_id,@fournisseur_nom,@fournisseur_adresse,@fournisseur_cp,@fournisseur_ville,@fournisseur_contact,@fournisseur_satisfaction)";
+                    string strSql = "Insert into fournisseur(fournisseur_nom,fournisseur_adresse,fournisseur_cp,fournisseur_ville,fournisseur_contact,fournisseur_satisfaction) " +
+                        "VALUES(@fournisseur_nom,@fournisseur_adresse,@fournisseur_cp,@fournisseur_ville,@fournisseur_contact,@fournisseur_satisfaction)";
                     sqlCommande.CommandType = CommandType.Text;
                     sqlCommande.CommandText = strSql;
-                    sqlReader = sqlCommande.ExecuteReader();
-
-                    MessageBox.Show("Le fournissuer " + tbNom.Text + " a était ajouté");
-                    tbVille.Clear();
-                    tbSatisfaction.Clear();
-                    tbNom.Clear();
-                    tbId.Clear();
-                    tbCP.Clear();
-                    tbContact.Clear();
-                    tbAdresse.Clear();
-                    sqlReader.Close();
+ 
+                    int nbLign = sqlCommande.ExecuteNonQuery();
+                    if (nbLign == 1)
+                    {
+                        MessageBox.Show("Le fournissuer " + tbNom.Text + " a était ajouté");
+                        tbVille.Clear();
+                        tbSatisfaction.Clear();
+                        tbNom.Clear();
+                        tbId.Clear();
+                        tbCP.Clear();
+                        tbContact.Clear();
+                        tbAdresse.Clear();
+                        
+                    }
                 }
             }
             catch (SqlException se)
@@ -210,10 +220,14 @@ namespace WindowsFormsAppCRUD
 
         private void bDelete_Click(object sender, EventArgs e)
         {
+            sqlConnect = new SqlConnection();
+            ConnectionStringSettings config = ConfigurationManager.ConnectionStrings["BD"];
+            if (config != null)
+            {
+                sqlConnect.ConnectionString = config.ConnectionString;
+            }
             try
             {
-                sqlConnect = new SqlConnection();
-                sqlConnect.ConnectionString = "Data Source=SYLVAIN\\SQLEXPRESS;Initial Catalog=Papyrus;Integrated Security=True";
                 sqlConnect.Open();
                 sqlCommande = new SqlCommand();
                 sqlCommande.Connection = sqlConnect;

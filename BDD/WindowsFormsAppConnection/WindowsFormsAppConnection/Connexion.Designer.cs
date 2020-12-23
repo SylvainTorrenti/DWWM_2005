@@ -81,7 +81,7 @@ namespace WindowsFormsAppConnection
             this.bConnexion.TabIndex = 4;
             this.bConnexion.Text = "Connexion";
             this.bConnexion.UseVisualStyleBackColor = true;
-            this.bConnexion.Click += new System.EventHandler(this.bConnexion_Click);
+            this.bConnexion.Click += new System.EventHandler(this.buttonConnexion_Click);
             // 
             // bDeconnexion
             // 
@@ -91,7 +91,7 @@ namespace WindowsFormsAppConnection
             this.bDeconnexion.TabIndex = 5;
             this.bDeconnexion.Text = "Déconnexion";
             this.bDeconnexion.UseVisualStyleBackColor = true;
-            this.bDeconnexion.Click += new System.EventHandler(this.bDeconnexion_Click);
+            this.bDeconnexion.Click += new System.EventHandler(this.buttonDeconnexion_Click);
             // 
             // bQuitter
             // 
@@ -101,7 +101,7 @@ namespace WindowsFormsAppConnection
             this.bQuitter.TabIndex = 6;
             this.bQuitter.Text = "Quitter";
             this.bQuitter.UseVisualStyleBackColor = true;
-            this.bQuitter.Click += new System.EventHandler(this.bQuitter_Click);
+            this.bQuitter.Click += new System.EventHandler(this.buttonQuitter_Click);
             // 
             // lEC
             // 
