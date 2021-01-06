@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <script src="https://kit.fontawesome.com/5d5d3d5e95.js" crossorigin="anonymous"></script>
     <link href="assets/css/main.css" rel="stylesheet">
     <meta charset="utf-8">
     <title>Freelance</title>
@@ -9,28 +10,42 @@
 
 <body>
     <header>
-        <img src="assets/images/TP_Freelancer_logo.jpg" width="10%" height="10%" />
-        <button onclick="href='#'"><img src="assets/images/client.png">Clients</button>
-        <button onclick="href='#'"><img src="assets/images/café.jpg">Missions</button>
-        <button onclick="href='#'" class="df"><img src="assets/images/calculatrice.png">Devis & Factures</button>
+        <img src="assets/images/TP_Freelancer_logo.jpg" id="logo" width="10%" height="10%" />
+        <nav>
+            <button onclick="href='#'"><i class="fas fa-users"></i>Clients</button>
+            <button onclick="href='#'"><i class="fas fa-coffee"></i>Missions</button>
+            <button onclick="href='#'" class="df"><i class="fas fa-calculator"></i>Devis & Factures</button>
+        </nav>
     </header>
     <main>
-        <h1>Gestion des clients</h1>
-        <article>Dernier client ajouté/modifié:</article>
-        <button onclick="href='#'" class="ajout"><img src="assets/images/plus.png">Ajouter un nouveau client</button>
-        <h2>Clients enregistrés</h2>
-        <article id="completer">mettre tableau</article>
-        <footer>
-            <article>
-                <a href="#">1er lien</a>
-                <a href="#">2eme lien</a>
-                <a href="#">3eme lien</a>
-                <a href="#">4eme lien</a>
-                <a href="#">5eme lien</a>
-            </article>
-            <article>
-                <img src="assets/images/copyright.png"/> 
-            </article>
-        </footer>
+        <div id="content">
+            <h1>Gestion des clients</h1>
+            <article id="client">Dernier client ajouté/modifié:</article>
+            <button onclick="href='#'" class="ajout"><img src="assets/images/plus.png">Ajouter un nouveau
+                client</button>
+        </div>
+        <div id="content">
+            <h2>Clients enregistrés</h2>
+            <table>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </table>
+        </div>
     </main>
+    <footer>
+        <div id="lien">
+            
+            <a href="#">Vacances</a>
+            <i class="fas fa-circle"></i><a href="#">Jeux</a>
+            <i class="fas fa-circle"></i><a href="#">Musique</a>
+            <i class="fas fa-circle"></i><a href="#">Travail</a>
+            <i class="fas fa-circle"></i><a href="#">Voyage</a>
+            
+        </div>
+        <div id="copyright">
+            <span><i class="fas fa-copyright"></i> Copyright 2021 . TORRENTI Sylvain</span>
+        </div>
+    </footer>
 </body>

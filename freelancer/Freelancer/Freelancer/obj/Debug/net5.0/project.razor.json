@@ -15601,6 +15601,22 @@
     "CSharpLanguageVersion": 900
   },
   "RootNamespace": "Freelancer",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\freelancer\\Freelancer\\Freelancer\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\freelancer\\Freelancer\\Freelancer\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\freelancer\\Freelancer\\Freelancer\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

@@ -21,3 +21,16 @@ C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelan
 C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\ref\Freelancer.dll
 C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Freelancer.pdb
 C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Freelancer.genruntimeconfig.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\bin\Debug\net5.0\Freelancer.Views.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\bin\Debug\net5.0\Freelancer.Views.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Freelancer.RazorAssemblyInfo.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Freelancer.RazorAssemblyInfo.cs
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Freelancer.TagHelpers.input.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Freelancer.TagHelpers.output.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Freelancer.RazorCoreGenerate.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Freelancer.RazorTargetAssemblyInfo.cs
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Freelancer.Views.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Freelancer.csproj.CopyComplete
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\freelancer\Freelancer\Freelancer\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
