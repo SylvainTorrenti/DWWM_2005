@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+.df{
+background-color: #38DD09;
+color: white;
+}
+.ajout{
+    font-weight: bold;
+}
+#completer{
+    color: red;
+}
