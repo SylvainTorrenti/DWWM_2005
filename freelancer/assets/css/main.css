@@ -87,6 +87,9 @@ table{
 table th{
     color: white;
 }
+td{
+    background-color: #FAF7F5;
+}
 .id{
    width: 50px;
 }
