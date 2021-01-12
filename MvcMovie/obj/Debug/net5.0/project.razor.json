@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\freelancer\\Freelancer\\Freelancer\\Freelancer.csproj",
+  "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\MvcMovie.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15600,26 +15600,76 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "Freelancer",
+  "RootNamespace": "MvcMovie",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\freelancer\\Freelancer\\Freelancer\\Views\\Home\\Test.cshtml",
-      "TargetPath": "Views\\Home\\Test.cshtml",
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\HelloWorld\\Index.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\freelancer\\Freelancer\\Freelancer\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\freelancer\\Freelancer\\Freelancer\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\Movies\\Index.cshtml",
+      "TargetPath": "Views\\Movies\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\Movies\\Edit.cshtml",
+      "TargetPath": "Views\\Movies\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\Movies\\Delete.cshtml",
+      "TargetPath": "Views\\Movies\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\freelancer\\Freelancer\\Freelancer\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\Movies\\Details.cshtml",
+      "TargetPath": "Views\\Movies\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\HelloWorld\\Welcome.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\torrs\\OneDrive\\Documents\\GitHub\\DWWM_2005\\MvcMovie\\Views\\Movies\\Create.cshtml",
+      "TargetPath": "Views\\Movies\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],
