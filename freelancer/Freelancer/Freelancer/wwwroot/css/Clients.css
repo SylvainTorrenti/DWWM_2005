@@ -1,0 +1,135 @@
+﻿* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#fenetre {
+    margin: 20px auto;
+    border-radius: 5px;
+    border: #c8c6c4 solid 1px;
+    width: 960px;
+    background-color: #ffffff;
+    color: #45505E;
+}
+nav {
+    text-align: right;
+}
+
+#logo {
+    float: left;
+}
+
+.df {
+    background-color: #38DD09;
+    color: white;
+}
+
+.ajout {
+    font-weight: bold;
+}
+
+#completer {
+    color: red;
+    padding-bottom: 80px;
+}
+
+#copyright {
+    background-color: #45505E;
+    color: #FAF7F5;
+    font-size: small;
+    font-weight: bold;
+    height: 40px;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+main {
+    color: #45505E;
+    clear: both;
+}
+
+#content {
+    text-align: center;
+}
+
+#lien {
+    background-color: #FAF7F5;
+    height: 70px;
+    text-align: center;
+    padding-top: 30px;
+}
+#lien a {
+        margin: auto;
+        text-align: center;
+        text-decoration: none;
+        color: #45505E;
+}
+
+.fa-circle {
+    font-size: 50%;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+#client {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+th {
+    background-color: black;
+}
+
+table {
+    border: solid black 2px;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 150px;
+    margin-top: 20px;
+
+}
+
+    table th {
+        color: white;
+    }
+
+td {
+    background-color: #FAF7F5;
+}
+
+.id {
+    width: 50px;
+}
+
+.name {
+    width: 250px;
+}
+
+.email {
+    width: 250px;
+}
+
+.actions {
+    width: 130px;
+}
+
+.fa-edit {
+    color: #38DD09;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.fa-times {
+    color: red;
+    cursor: pointer;
+}
+

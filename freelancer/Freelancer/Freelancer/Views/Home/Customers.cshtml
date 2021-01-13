@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Clients";
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/5d5d3d5e95.js" crossorigin="anonymous"></script>
+    <link href="~/css/Clients.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Freelance</title>
+</head>
+
+<body>
+    <div id="fenetre">
+        <header>
+            <img src="~/images/TP_Freelancer_logo.jpg" id="logo" width="10%" height="10%" />
+            <nav>
+                <button onclick="href='#'"><i class="fas fa-users"></i>Clients</button>
+                <button onclick="href='#'"><i class="fas fa-coffee"></i>Missions</button>
+                <button onclick="href='#'" class="df"><i class="fas fa-calculator"></i>Devis & Factures</button>
+            </nav>
+        </header>
+        <main>
+            <div id="content">
+                <h1>Gestion des clients</h1>
+                <article id="client">Dernier client ajouté/modifié:</article>
+                <button onclick="href='#'" class="ajout">
+                    <i class="fas fa-plus"></i>Ajouter un nouveau
+                    client
+                </button>
+            </div>
+            <div id="content">
+                <h2>Clients enregistrés</h2>
+                <table>
+                    <tr>
+                        <th class="id">ID</th>
+                        <th class="name">Name</th>
+                        <th class="email">Email</th>
+                        <th class="actions">Actions</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Mark Zoukerbergue</td>
+                        <td>mark@gmail.com</td>
+                        <td><i class="fas fa-edit"></i><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jean Thil</td>
+                        <td>jeanh@domain.com</td>
+                        <td><i class="fas fa-edit"></i><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Jessie Aboard</td>
+                        <td>jaboard@domaine.com</td>
+                        <td><i class="fas fa-edit"></i><i class="fas fa-times"></i></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <div id="lien">
+
+                <a href="#">Vacances</a>
+                <i class="fas fa-circle"></i><a href="#">Jeux</a>
+                <i class="fas fa-circle"></i><a href="#">Musique</a>
+                <i class="fas fa-circle"></i><a href="#">Travail</a>
+                <i class="fas fa-circle"></i><a href="#">Voyage</a>
+
+            </div>
+            <div id="copyright">
+                <span><i class="fas fa-copyright"></i> Copyright 2021 . TORRENTI Sylvain</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
