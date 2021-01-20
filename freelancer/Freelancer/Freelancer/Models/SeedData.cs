@@ -24,20 +24,20 @@ namespace Freelancer.Models
                 context.Customers.AddRange(
                     new Customers
                     {
-                        Name = "Mark Zoukerbergue",
-                        Email = "mark@gmail.com",
+                        customer_name = "Mark Zoukerbergue",
+                        customer_email = "mark@gmail.com",
                     },
 
                     new Customers
                     {
-                        Name = "Jean Thil",
-                        Email = "jeanh@domain.com",
+                        customer_name = "Jean Thil",
+                        customer_email = "jeanh@domain.com",
                     },
 
                     new Customers
                     {
-                        Name = "Jessie Aboard",
-                        Email = "jaboard@domaine.com",
+                        customer_name = "Jessie Aboard",
+                        customer_email = "jaboard@domaine.com",
                     }
                 );
                 context.SaveChanges();

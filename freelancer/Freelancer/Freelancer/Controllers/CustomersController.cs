@@ -34,7 +34,7 @@ namespace Freelancer.Controllers
             }
 
             var customers = await _context.Customers
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.customer_id == id);
             if (customers == null)
             {
                 return NotFound();
@@ -46,7 +46,7 @@ namespace Freelancer.Controllers
         {
             IEnumerable<Customers> customers = _context.Customers.ToList();
 
-            // injection de la liste des voitures dans la vue CarsList
+            
             return View("Test", customers);
         }
         // GET: Customers/Create
@@ -94,7 +94,7 @@ namespace Freelancer.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Email")] Customers customers)
         {
-            if (id != customers.Id)
+            if (id != customers.customer_id)
             {
                 return NotFound();
             }
@@ -108,7 +108,7 @@ namespace Freelancer.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CustomersExists(customers.Id))
+                    if (!CustomersExists(customers.customer_id))
                     {
                         return NotFound();
                     }
@@ -131,7 +131,7 @@ namespace Freelancer.Controllers
             }
 
             var customers = await _context.Customers
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.customer_id == id);
             if (customers == null)
             {
                 return NotFound();
@@ -153,7 +153,7 @@ namespace Freelancer.Controllers
 
         private bool CustomersExists(int id)
         {
-            return _context.Customers.Any(e => e.Id == id);
+            return _context.Customers.Any(e => e.customer_id == id);
         }
     }
 }
