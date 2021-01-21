@@ -1,0 +1,6 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\DesignPatern\DesignPatern\obj\Debug\DesignPatern.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\DesignPatern\DesignPatern\obj\Debug\DesignPatern.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\DesignPatern\DesignPatern\bin\Debug\DesignPatern.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\DesignPatern\DesignPatern\bin\Debug\DesignPatern.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\DesignPatern\DesignPatern\obj\Debug\DesignPatern.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\DesignPatern\DesignPatern\obj\Debug\DesignPatern.pdb
