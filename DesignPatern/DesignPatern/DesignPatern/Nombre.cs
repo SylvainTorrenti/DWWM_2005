@@ -19,13 +19,15 @@ namespace DesignPatern
         {
             return valeur;
         }
+
         public override string Formate()
         {
             return valeur.ToString();
         }
+
         public override string ToString()
         {
-            return base.ToString();
+            return valeur.ToString();
         }
     }
 }

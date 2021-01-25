@@ -15,5 +15,6 @@ namespace DesignPatern
             nombre1 = op1;
             nombre2 = op2;
         }
+
     }
 }
