@@ -18,7 +18,7 @@ namespace ConsoleAppTest
 
             Expression exp4 = new Addition(new Soustraction(new Nombre(3), new Nombre(6)),new Nombre(7));
             int res4 = exp4.Evalue();
-            exp4.Formate();
+            string str4 = exp4.Formate();
 
         }
     }
