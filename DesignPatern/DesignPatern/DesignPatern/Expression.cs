@@ -13,5 +13,6 @@ namespace DesignPatern
         }
 
         public abstract int Evalue();
+        public abstract string Formate();
     }
 }

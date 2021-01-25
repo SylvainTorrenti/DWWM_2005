@@ -8,21 +8,22 @@ namespace DesignPatern
 {
     public class Soustraction : Binaire
     {
-        protected int nombre1;
-        protected int nombre2;
         public Soustraction(Expression op1, Expression op2) : base(op1, op2)
         {
-            nombre1 = op1.Evalue();
-            nombre2 = op2.Evalue();
         }
 
         public override int Evalue()
         {
-            return nombre1 - nombre2;
+            return nombre1.Evalue() - nombre2.Evalue();
         }
         public override string ToString()
         {
-            return base.ToString();
+            return nombre1.ToString() + "-" + nombre2.ToString();
+        }
+        public override string Formate()
+        {
+            return this.ToString() + "=" + this.Evalue().ToString();
+
         }
     }
 }
