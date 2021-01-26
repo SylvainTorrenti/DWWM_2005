@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleAppFigures/1.0.0": {
+        "dependencies": {
+          "ClassLibraryPaint": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleAppFigures.dll": {}
+        }
+      },
+      "ClassLibraryPaint/1.0.0": {
+        "runtime": {
+          "ClassLibraryPaint.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleAppFigures/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryPaint/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

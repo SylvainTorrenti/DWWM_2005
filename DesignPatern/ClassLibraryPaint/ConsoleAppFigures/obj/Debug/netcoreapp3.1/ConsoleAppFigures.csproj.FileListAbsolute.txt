@@ -1,0 +1,16 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\bin\Debug\netcoreapp3.1\ConsoleAppFigures.exe
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\bin\Debug\netcoreapp3.1\ConsoleAppFigures.deps.json
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\bin\Debug\netcoreapp3.1\ConsoleAppFigures.runtimeconfig.json
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\bin\Debug\netcoreapp3.1\ConsoleAppFigures.runtimeconfig.dev.json
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\bin\Debug\netcoreapp3.1\ConsoleAppFigures.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\bin\Debug\netcoreapp3.1\ConsoleAppFigures.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\bin\Debug\netcoreapp3.1\ClassLibraryPaint.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\bin\Debug\netcoreapp3.1\ClassLibraryPaint.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\obj\Debug\netcoreapp3.1\ConsoleAppFigures.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\obj\Debug\netcoreapp3.1\ConsoleAppFigures.AssemblyInfoInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\obj\Debug\netcoreapp3.1\ConsoleAppFigures.AssemblyInfo.cs
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\obj\Debug\netcoreapp3.1\ConsoleAppFigures.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\obj\Debug\netcoreapp3.1\ConsoleAppFigures.csproj.CopyComplete
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\obj\Debug\netcoreapp3.1\ConsoleAppFigures.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\obj\Debug\netcoreapp3.1\ConsoleAppFigures.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ConsoleAppFigures\obj\Debug\netcoreapp3.1\ConsoleAppFigures.genruntimeconfig.cache

@@ -1,0 +1,6 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ClassLibraryPaint\bin\Debug\ClassLibraryPaint.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ClassLibraryPaint\bin\Debug\ClassLibraryPaint.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ClassLibraryPaint\obj\Debug\ClassLibraryPaint.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ClassLibraryPaint\obj\Debug\ClassLibraryPaint.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ClassLibraryPaint\obj\Debug\ClassLibraryPaint.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\DesignPatern\ClassLibraryPaint\ClassLibraryPaint\obj\Debug\ClassLibraryPaint.pdb
