@@ -16,8 +16,8 @@ namespace ConsoleAppFigures
             Figures figures1 = new Figures(5, 6);
             Cercle cercle2 = new Cercle(7, 8, 9);
             Rectangle rectangle2 = new Rectangle(4, 3, 2, 1);
-            figures1.sesFigures.Add(cercle2);
-            figures1.sesFigures.Add(rectangle2);
+            figures1.AddFigure(cercle2);
+            figures1.AddFigure(rectangle2);
             figures1.SeDessiner();
 
             Console.ReadLine();

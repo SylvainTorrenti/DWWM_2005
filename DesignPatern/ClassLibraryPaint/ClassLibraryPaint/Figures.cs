@@ -10,11 +10,19 @@ namespace ClassLibraryPaint
             sesFigures = new List<Figure>();
         }
 
-        public List<Figure> sesFigures { get; set; }
+        private List<Figure> sesFigures { get; set; }
 
-
+        public void AddFigure(Figure f)
+        {
+            this.sesFigures.Add(f);
+        }
+        public void DeleteFigure(Figure f)
+        {
+            this.sesFigures.Remove(f);
+        }
         public override void SeDessiner()
         {
+            Console.WriteLine("Je suis plusieurs figures:");
             foreach(Figure figu in sesFigures)
             {
                 figu.SeDessiner();
