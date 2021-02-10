@@ -1,0 +1,6 @@
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ClassLibraryObserver\ClassLibraryObserver\bin\Debug\ClassLibraryObserver.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ClassLibraryObserver\ClassLibraryObserver\bin\Debug\ClassLibraryObserver.pdb
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ClassLibraryObserver\ClassLibraryObserver\obj\Debug\ClassLibraryObserver.csprojAssemblyReference.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ClassLibraryObserver\ClassLibraryObserver\obj\Debug\ClassLibraryObserver.csproj.CoreCompileInputs.cache
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ClassLibraryObserver\ClassLibraryObserver\obj\Debug\ClassLibraryObserver.dll
+C:\Users\torrs\OneDrive\Documents\GitHub\DWWM_2005\ClassLibraryObserver\ClassLibraryObserver\obj\Debug\ClassLibraryObserver.pdb
